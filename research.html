@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- vim: set ts=2 sts=2 sw=2 noet: -->
+<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link href="/css/timeline.css" rel="stylesheet" type="text/css"/>
+	<link href="/css/patpannuto.css" rel="stylesheet" type="text/css"/>
+
+	<script type="text/javascript" src="/js/jquery-2.1.0.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.autoheight.js"></script>
+	<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/js/patpannuto.js"></script>
+
+	<title>Pat Pannuto</title>
+</head>
+
+<body>
+
+<div id="wrap">
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!--
+				<div class="hidden-xs" style="margin:8px 20px 0 20px;">
+					<img src='/images/block_m.png' height="35px" />
+				</div>
+				-->
+				<div>
+					<a class="navbar-brand" style="margin-top: -15px;" title="Home" href="/">
+						<img class="round" src="/images/pannuto-square-50.jpg"/>
+					</a>
+					<a class="navbar-brand hidden-xs hidden-sm hidden-md" title="Home" href="/">
+						Pat Pannuto
+					</a>
+					<a class="navbar-brand hidden-xs hidden-sm hidden-md">|</a>
+					<a class="navbar-brand" target="_blank" title="Facebook" href="https://www.facebook.com/pat.pannuto">
+						<i class="fa fa-facebook"></i>
+					</a>
+					<a class="navbar-brand" target="_blank" title="Twitter" href="https://twitter.com/patpannuto">
+						<i class="fa fa-twitter"></i>
+					</a>
+					<a class="navbar-brand hidden-xs hidden-sm" target="_blank" title="Keybase" href="https://keybase.io/ppannuto">
+						<i class="fa fa-key"></i>
+					</a>
+					<a class="navbar-brand hidden-xs hidden-sm" target="_blank" title="Instagram" href="http://instagram.com/ppannuto/">
+						<i class="fa fa-instagram"></i>
+					</a>
+					<a class="navbar-brand hidden-xs hidden-sm hidden-md" target="_blank" title="Foursquare" href="https://foursquare.com/user/1752675">
+						<i class="fa fa-foursquare"></i>
+					</a>
+					<a class="navbar-brand hidden-xs">|</a>
+					<a class="navbar-brand" target="_blank" title="Github" href="https://github.com/ppannuto">
+						<i class="fa fa-github"></i>
+					</a>
+					<a class="navbar-brand hidden-xs" target="_blank" title="Stack Exchange" href="http://stackexchange.com/users/147514/pat">
+						<i class="fa fa-stack-exchange"></i>
+					</a>
+					<a class="navbar-brand hidden-xs hidden-sm" target="_blank" title="Bitbucket" href="https://bitbucket.org/ppannuto">
+						<i class="fa fa-bitbucket"></i>
+					</a>
+					<a class="navbar-brand hidden-xs hidden-sm hidden-md" target="_blank" title="Gratipay" href="https://www.gratipay.com/ppannuto/">
+						<i class="fa fa-gittip"></i>
+					</a>
+					<a class="navbar-brand hidden-xs">|</a>
+					<a class="navbar-brand" target="_blank" title="Lab11 Home Page (Research Group)" href="http://lab11.eecs.umich.edu/">
+						<img src="/images/lab11_72px.png" height="20px" />
+					</a>
+				</div>
+			</div> <!-- navbar-header -->
+
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav pull-right">
+					<li class="hidden-sm" ><a href="/index.html">Pat</a></li>
+					<!--<li ><a href="/cv.html">CV</a></li>-->
+					<li><a href="/cv/pannuto.pdf">CV <i class="fa fa-file-pdf-o"></i></a></li>
+					<li class="hidden-sm" ><a href="/publications.html">Publications</a></li>
+					<li class="hidden-lg hidden-md hidden-xs" ><a href="/publications.html">Pubs.</a></li>
+					<li class="hidden-sm" ><a href="/conferences.html">Conferences</a></li>
+					<li class="hidden-lg hidden-md hidden-xs" ><a href="/conferences.html">Conf.</a></li>
+					<li ><a href="/talks.html">Talks</a></li>
+					<li ><a href="/teaching.html">Teaching</a></li>
+					<li ><a href="/fellowships.html">Fellowships</a></li>
+				</ul>
+			</div>
+		</div> <!-- container -->
+	</nav>
+
+	<div class="container" id="main-content">
+		<h1>Research</h1>
+<p>The high-level theme of my research is "embedded systems". In particular,
+I focus on enabling technology for low-power, pervasive systems with an emphasis
+on the deployability and maintenance of large, long-term networks.</p>
+<p>Raw data is included in the <code>source</code> tarballs for each project. If
+you have further questions or need assistance, please do not hesitate to
+<a href="/index.html">contact me</a>.</p>
+<h2>M<sup>3</sup></h2>
+<p>The goal of the Michigan Micro Mote (M<sup>3</sup>) project is to finally
+realize the Smart Dust vision: networks of integrated, autonomous,
+energy-harvesting nodes that can sense the environment and deliver their data
+over a wireless mesh network.  The concrete goal of the project is to: (1)
+create sensor nodes that are cubic-mm in size, (2) draw ~10 nW, and (3) deliver
+data every few minutes over a multihop network. This requires advances in every
+layer of the system stack &ndash; circuits to memory to processor to timers to radios
+to interconnects to packaging to software to protocols to programming models. If
+successful, this represents a 1,000-10,000 fold improvement over the
+state-of-the-art in size and power.
+<p style="text-align: right; font-size:75%; padding: 0px; margin: 0px;"><i>Abstract lifted from 
+    <a href="http://web.eecs.umich.edu/~prabal/">Prabal Dutta</a></i></p>
+</p></p>
+<p>M<sup>3</sup> is an ambitious project, composed of a team of four faculty (
+<a href="http://eecs.umich.edu/~dennis/">Dennis Sylvester</a>,
+<a href="http://blaauw.eecs.umich.edu/people.php?u=professor&sid=ad661190b78e093e994bbcc8bc5d6b87">David Blaauw</a>,
+<a href="http://eecs.umich.edu/~wentzlof/">David Wentzloff</a>,
+and <a href="http://eecs.umich.edu/~prabal/">Prabal Dutta</a>
+) and over a dozen graduate students. My primary contribution is the software
+development environment for the M<sup>3</sup> system. This includes a
+hardware/software emulation system and a supporting software library for this
+M<sup>3</sup>. I also work on system architecture design.</p>
+<h3>M-ulator</h3>
+<p>A highly extensible {ARM} {e,si}mulator. It is capable of both
+simple simulation of various ARM cores (currently M0, M3) or in-circuit
+emulation (currently the Michigan Micro Mote platform)</p>
+<p>In addition, this project is used as a teaching tool for embedded systems
+courses (currently at University of Michigan and University of Utah), both to
+understand internal core design and higher-level MCU usage.</p>
+<p style="padding-left: 1em;">
+<a href="https://github.com/ppannuto/M-ulator"><i>Available on github</i></a>
+</p>
+
+<h2>Low-Power I2C</h2>
+<p>An I2C variant designed by
+<a href="https://sites.google.com/site/yoonmyunglee/">Yoonmyung Lee</a> for the
+M<sup>3</sup>, this demo paper briefly explores the ultra-low power bus design
+space. Its focus is on the design challenges of interfacing conventional
+commercial systems with hyper-power concious systems, and the tradeoffs made to
+achieve nano-Watt power budgets.</p>
+<p>This work was presented at IPSN'12 in Beijing</p>
+<p style="font-size: 75%;"><b>Pat Pannuto</b>, Yoonmyung Lee, Ben Kempke, Dennis Sylvester, David
+Blaauw, and Prabal Dutta.  Ultra-constrained sensor platform interfacing.  In
+<i>Proceedings of the 11th international conference on Information Processing in
+    Sensor Networks</i>, IPSN &#8217;12, pages 147&#8211;148, New York, NY, USA, 2012. ACM</p>
+
+<p style="padding-left: 1em;">
+<tt>
+<a href="/research/ipsn12-i2c-paper.pdf">paper</a>
+<a href="/research/ipsn12-i2c-poster.pdf">poster</a>
+<a href="/research/cubicmm-demo.tar.gz">source</a>
+</tt>
+</p>
+
+<h2>&#181;SDR</h2>
+<p>Collaborative work with <a href="http://eecs.umich.edu/~samkuo/">Ye-Sheng Kuo</a>,
+supporting the final steps of his &#181;SDR platform. &#181;SDR is a 10x
+improvement in the price, power, and portability of SDR platforms. It trades the
+modularity of the RF frontends and some amount of processing power for these
+advantages. Several low-power protocols (A-MAC, Glossy) have been implemented in
+&#181;SDR already.</p>
+<p>For up-to-date information on &#181;SDR, please
+<a href="http://energy.eecs.umich.edu/wiki/doku.php?id=proj:sdr:home">visit the
+    project website</a>.</p>
+<p style="font-size: 75%;">
+Ye-Sheng Kuo, <b>Pat Pannuto</b>, Thomas Schmid, and Prabal Dutta. Reconfiguring
+the software radio to improve power, price, and portability.  In <i> Proceedings
+of the 10th ACM Conference on Embedded Networked Sensor Systems</i>,
+SenSys &#8217;12, New York, NY, USA, 2012. ACM
+</p>
+
+<p style="padding-left: 1em;">
+<tt>
+<a href="/research/sensys12-sdr.pdf">paper</a>
+<a href="/research/sdr2.tar.gz">source</a>
+</tt>
+</p>
+
+<h3>Powerline Communications (PLC)</h3>
+<p>My introduction to research as an undergraduate, this work sought to explore the
+feasibility of using Powerline Communications (PLC) in a commercial building. In
+a home, a PLC deployment is easy as the same line and neutral wires run to every
+outlet. This is untrue in a commercial building, which is parcelled off into
+electrically isolated regions by transformers.</p>
+<p>The work was an exploration of the connectivity graph of the Computer Science
+building at the University of Michigan, seeking to characterize it and then
+attempt an explanation of the observed characteristics.</p>
+<p style="font-size: 75%;">
+<b>Pat Pannuto</b> and Prabal Dutta. Exploring powerline networking for the
+smart building. In <i>Extending the Internet to Low power and Lossy Networks</i>,
+IP+SN &#8217;11, April 2011
+</p>
+
+<p style="padding-left: 1em;">
+<tt>
+<a href="research/ipsn11-plc.pdf">paper</a>
+<a href="research/ipsn11-plc-pres.pdf">presentation</a>
+<a href="research/paper_ip_sn.tar.gz">source</a>
+</tt>
+		
+	</div>
+
+</div> <!-- wrap -->
+
+<script src="/js/patpannuto-onload.js"></script>
+<script>
+  /* Google Analytics */
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54298009-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>

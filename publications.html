@@ -1,0 +1,2441 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- vim: set ts=2 sts=2 sw=2 noet: -->
+<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link href="/css/timeline.css" rel="stylesheet" type="text/css"/>
+	<link href="/css/patpannuto.css" rel="stylesheet" type="text/css"/>
+
+	<script type="text/javascript" src="/js/jquery-2.1.0.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.autoheight.js"></script>
+	<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/js/patpannuto.js"></script>
+
+	<title>Pat Pannuto</title>
+</head>
+
+<body>
+
+<div id="wrap">
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!--
+				<div class="hidden-xs" style="margin:8px 20px 0 20px;">
+					<img src='/images/block_m.png' height="35px" />
+				</div>
+				-->
+				<div>
+					<a class="navbar-brand" style="margin-top: -15px;" title="Home" href="/">
+						<img class="round" src="/images/pannuto-square-50.jpg"/>
+					</a>
+					<a class="navbar-brand hidden-xs hidden-sm hidden-md" title="Home" href="/">
+						Pat Pannuto
+					</a>
+					<a class="navbar-brand hidden-xs hidden-sm hidden-md">|</a>
+					<a class="navbar-brand" target="_blank" title="Facebook" href="https://www.facebook.com/pat.pannuto">
+						<i class="fa fa-facebook"></i>
+					</a>
+					<a class="navbar-brand" target="_blank" title="Twitter" href="https://twitter.com/patpannuto">
+						<i class="fa fa-twitter"></i>
+					</a>
+					<a class="navbar-brand hidden-xs hidden-sm" target="_blank" title="Keybase" href="https://keybase.io/ppannuto">
+						<i class="fa fa-key"></i>
+					</a>
+					<a class="navbar-brand hidden-xs hidden-sm" target="_blank" title="Instagram" href="http://instagram.com/ppannuto/">
+						<i class="fa fa-instagram"></i>
+					</a>
+					<a class="navbar-brand hidden-xs hidden-sm hidden-md" target="_blank" title="Foursquare" href="https://foursquare.com/user/1752675">
+						<i class="fa fa-foursquare"></i>
+					</a>
+					<a class="navbar-brand hidden-xs">|</a>
+					<a class="navbar-brand" target="_blank" title="Github" href="https://github.com/ppannuto">
+						<i class="fa fa-github"></i>
+					</a>
+					<a class="navbar-brand hidden-xs" target="_blank" title="Stack Exchange" href="http://stackexchange.com/users/147514/pat">
+						<i class="fa fa-stack-exchange"></i>
+					</a>
+					<a class="navbar-brand hidden-xs hidden-sm" target="_blank" title="Bitbucket" href="https://bitbucket.org/ppannuto">
+						<i class="fa fa-bitbucket"></i>
+					</a>
+					<a class="navbar-brand hidden-xs hidden-sm hidden-md" target="_blank" title="Gratipay" href="https://www.gratipay.com/ppannuto/">
+						<i class="fa fa-gittip"></i>
+					</a>
+					<a class="navbar-brand hidden-xs">|</a>
+					<a class="navbar-brand" target="_blank" title="Lab11 Home Page (Research Group)" href="http://lab11.eecs.umich.edu/">
+						<img src="/images/lab11_72px.png" height="20px" />
+					</a>
+				</div>
+			</div> <!-- navbar-header -->
+
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav pull-right">
+					<li class="hidden-sm" ><a href="/index.html">Pat</a></li>
+					<!--<li ><a href="/cv.html">CV</a></li>-->
+					<li><a href="/cv/pannuto.pdf">CV <i class="fa fa-file-pdf-o"></i></a></li>
+					<li class="hidden-sm" ><a href="/publications.html">Publications</a></li>
+					<li class="hidden-lg hidden-md hidden-xs" ><a href="/publications.html">Pubs.</a></li>
+					<li class="hidden-sm" ><a href="/conferences.html">Conferences</a></li>
+					<li class="hidden-lg hidden-md hidden-xs" ><a href="/conferences.html">Conf.</a></li>
+					<li ><a href="/talks.html">Talks</a></li>
+					<li ><a href="/teaching.html">Teaching</a></li>
+					<li ><a href="/fellowships.html">Fellowships</a></li>
+				</ul>
+			</div>
+		</div> <!-- container -->
+	</nav>
+
+	<div class="container" id="main-content">
+		
+		
+
+<div class="page-header">
+	<h1>Publications</h1>
+</div>
+
+<p class="lead">
+This page collects recent publications. My <a href="/cv/pannuto.pdf">full CV <i class="fa fa-file-pdf-o"></i></a> is also available.
+</p>
+
+<div class="panel panel-default">
+	<div class="panel-heading">
+		Filters
+	</div>
+	<div class="panel-body">
+		<div class="form-horizontal">
+			<div class="form-group">
+				<label class="col-sm-2 control-label">Publication Type</label>
+				<div class="col-sm-10">
+					<label class="checkbox-inline">
+<input type="checkbox" checked="checked" class="type_chk" value="conferences"> Conferences
+</label><label class="checkbox-inline">
+<input type="checkbox" checked="checked" class="type_chk" value="journals"> Journals
+</label><label class="checkbox-inline">
+<input type="checkbox" checked="checked" class="type_chk" value="posterdemo"> Posters and Demos
+</label><label class="checkbox-inline">
+<input type="checkbox" checked="checked" class="type_chk" value="workshops"> Workshops
+</label>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="pubdiv_2015">
+
+<h2>2015</h2>
+
+<ul class="timeline">
+	<li class="pub_type_conferences">
+<div class="timeline-badge timeline-badge-C">C</div>
+<div id="pannuto15mbus" class="timeline-panel pub_entry">
+	
+	<span class="label label-success">New</span>
+	
+	<span class="bib_title">
+		
+		<a id="pannuto15mbus-title" href="pubs/pannuto15mbus.pdf">MBus: An Ultra-Low Power Interconnect Bus for Next Generation Nanopower Systems</a>
+		
+	</span> <br />
+	
+	<span class="bib_authors"><strong>Pat</strong> <strong>Pannuto</strong>, Yoonmyung Lee, Ye-Sheng Kuo, ZhiYoong Foo, Benjamin Kempke, Gyouho Kim, Ronald G Dreslinski, David Blaauw, and Prabal Dutta</span><br />
+	
+	<span class="bib_conference">Proceedings of the 42nd International Symposium on Computer Architecture (ISCA&nbsp;&rsquo;15)</span><br />
+	
+	
+	<span class="pubs_links">
+		
+		<a id="pannuto15mbus-link" href="pubs/pannuto15mbus.pdf">[paper]</a>
+		
+		
+		<a id="pannuto15mbus-talk" href="/talks.html#pannuto15mbus">[talk]</a>
+		
+		
+		
+		<a id="bib_XXXatag_pannuto15mbus" class="pub_bibtex">[bibtex]</a>
+		
+		
+		<a id="abstract_XXXatag_pannuto15mbus" class="pub_abstract">[abstract]</a>
+		
+		
+		
+		
+		<a href="http://www.ece.cmu.edu/calcm/isca2015" title="Acceptance: 58 / 305 (19%)">[conference]</a>
+		
+		
+		
+	</span>
+	
+	<br />
+
+	
+	<div id="bib_pannuto15mbus" style="display: none;">
+		<pre>@inproceedings{pannuto15mbus,
+	keywords = {conf},
+	title = {{MBus}: An Ultra-Low Power Interconnect Bus for Next Generation Nanopower Systems},
+	booktitle = {Proceedings of the 42nd International Symposium on Computer Architecture},
+	series = {ISCA '15},
+	year = {2015},
+	month = {June},
+	location = {Portland, Oregon, USA},
+	publisher = {ACM},
+	conference-url = {http://www.ece.cmu.edu/calcm/isca2015},
+	acceptance-accepted = {58},
+	acceptance-total = {305},
+	author = {\textbf{Pannuto}, \textbf{Pat} and Lee, Yoonmyung and Kuo, Ye-Sheng and Foo, ZhiYoong and Kempke, Benjamin and Kim, Gyouho and Dreslinski, Ronald G and Blaauw, David and Dutta, Prabal},
+	badge = {C},
+	type = {conferences},
+	display-type = {paper},
+}</pre>
+	</div>
+	
+	
+	<div id="abstract_pannuto15mbus" class="panel panel-default" style="display: none;">
+		<div class="panel-body">
+		<div id="abstract_pannuto15mbus_raw" style="display: none;">
+			<pre>As we show in this paper, I/O has become the limiting
+factor in scaling down size and power toward the goal of
+invisible computing. Achieving this goal will require
+composing optimized and specialized---yet
+reusable---components with an interconnect that permits
+tiny, ultra-low power systems.  In contrast to today's
+interconnects which are limited by power-hungry
+pull-ups or high-overhead chip-select lines, our
+approach provides a superset of common bus features but
+at lower power, with fixed area and pin count, using
+fully synthesizable logic, and with surprisingly low
+protocol overhead.
+
+We present \textbf{MBus}, a new 4-pin,
+22.6\,pJ/bit/chip chip-to-chip interconnect made of two
+``shoot-through'' rings.  MBus facilitates ultra-low
+power system operation by implementing automatic
+power-gating of each chip in the system, easing the
+integration of active, inactive, and activating
+circuits on a single die.  In addition, we introduce a
+new bus primitive: power oblivious communication, which
+guarantees message reception regardless of the
+recipient's power state when a message is sent.  This
+disentangles power management from communication,
+greatly simplifying the creation of viable, modular,
+and heterogeneous systems that operate on the order of
+nanowatts.
+
+To evaluate the viability, power, performance,
+overhead, and scalability of our design, we build both
+hardware and software implementations of MBus and show
+its seamless operation across two FPGAs and twelve
+custom chips from three different semiconductor
+processes.  A three-chip, 2.2\,mm$^3$ MBus system draws
+8\,nW of total system standby power and uses only
+22.6\,pJ/bit/chip for communication.  This is the
+lowest power for any system bus with MBus's feature
+set.
+</pre>
+			<p style="font-style: italic;">
+				<a id="abstract_pannuto15mbus_raw_a" class="pub_abstract_raw">
+					Content has been formatted as TeX source. Click to format for web.
+				</a>
+			</p>
+		</div>
+		<div id="abstract_pannuto15mbus_html">
+			<p>As we show in this paper, I/O has become the limiting factor in scaling down size and power toward the goal of invisible computing. Achieving this goal will require composing optimized and specialized&mdash;yet reusable&mdash;components with an interconnect that permits tiny, ultra-low power systems.  In contrast to today&rsquo;s interconnects which are limited by power-hungry pull-ups or high-overhead chip-select lines, our approach provides a superset of common bus features but at lower power, with fixed area and pin count, using fully synthesizable logic, and with surprisingly low protocol overhead. </p><p> We present <strong>MBus</strong>, a new 4-pin, 22.6 pJ/bit/chip chip-to-chip interconnect made of two &ldquo;shoot-through&rdquo; rings.  MBus facilitates ultra-low power system operation by implementing automatic power-gating of each chip in the system, easing the integration of active, inactive, and activating circuits on a single die.  In addition, we introduce a new bus primitive: power oblivious communication, which guarantees message reception regardless of the recipient&rsquo;s power state when a message is sent.  This disentangles power management from communication, greatly simplifying the creation of viable, modular, and heterogeneous systems that operate on the order of nanowatts. </p><p> To evaluate the viability, power, performance, overhead, and scalability of our design, we build both hardware and software implementations of MBus and show its seamless operation across two FPGAs and twelve custom chips from three different semiconductor processes.  A three-chip, 2.2 mm<sup>3</sup> MBus system draws 8 nW of total system standby power and uses only 22.6 pJ/bit/chip for communication.  This is the lowest power for any system bus with MBus&rsquo;s feature set. </p>
+			<p style="font-style: italic;">
+				<a id="abstract_pannuto15mbus_html_a" class="pub_abstract_html">
+					Content has been formatted for web. Click to view raw TeX
+				</a>
+			</p>
+		</div>
+		</div>
+	</div>
+	
+</div>
+</li><li class="pub_type_workshops">
+<div class="timeline-badge timeline-badge-W">W</div>
+<div id="pannuto15making-m3" class="timeline-panel pub_entry">
+	
+	<span class="label label-success">New</span>
+	
+	<span class="bib_title">
+		
+		<a id="pannuto15making-m3-title" href="pubs/pannuto15making-m3.pdf">Lessons from Five Years of Making Michigan Micro Motes</a>
+		
+	</span> <br />
+	
+	<span class="bib_authors"><strong>Pat</strong> <strong>Pannuto</strong>, Yoonmyung Lee, ZhiYoong Foo, Gyouho Kim, David Blaauw, and Prabal Dutta</span><br />
+	
+	<span class="bib_conference">6th Workshop of Architectural Research Prototyping (WARP&nbsp;&rsquo;15)</span><br />
+	
+	
+	<span class="pubs_links">
+		
+		<a id="pannuto15making-m3-link" href="pubs/pannuto15making-m3.pdf">[paper]</a>
+		
+		
+		<a id="pannuto15making-m3-talk" href="/talks.html#pannuto15making-m3">[talk]</a>
+		
+		
+		
+		<a id="bib_XXXatag_pannuto15making-m3" class="pub_bibtex">[bibtex]</a>
+		
+		
+		<a id="abstract_XXXatag_pannuto15making-m3" class="pub_abstract">[abstract]</a>
+		
+		
+		
+		
+		<a href="http://www.csl.cornell.edu/warp2015/" title="Acceptance: 11 / 20 (55%)">[conference]</a>
+		
+		
+		
+	</span>
+	
+	<br />
+
+	
+	<div id="bib_pannuto15making-m3" style="display: none;">
+		<pre>@inproceedings{pannuto15making-m3,
+	keywords = {workshop},
+	title = {Lessons from Five Years of Making {Michigan Micro Motes}},
+	booktitle = {6th Workshop of Architectural Research Prototyping},
+	series = {WARP '15},
+	year = {2015},
+	mon = {June},
+	location = {Portland, Oregon, USA},
+	conference-url = {http://www.csl.cornell.edu/warp2015/},
+	acceptance-accepted = {11},
+	acceptance-total = {20},
+	author = {\textbf{Pannuto}, \textbf{Pat} and Lee, Yoonmyung and Foo, ZhiYoong and Kim, Gyouho and Blaauw, David and Dutta, Prabal},
+	badge = {W},
+	type = {workshops},
+	display-type = {paper},
+}</pre>
+	</div>
+	
+	
+	<div id="abstract_pannuto15making-m3" class="panel panel-default" style="display: none;">
+		<div class="panel-body">
+		<div id="abstract_pannuto15making-m3_raw" style="display: none;">
+			<pre>It has now been over fifteen years since Kris Pister's
+call for ``smart dust''. Today, we are capable of
+building general purpose computing systems, including
+computation, storage, sensing, and communication, that
+fit in a cubic millimeter.  In this work, we discuss
+the lessons learned in the design, manufacture,
+debugging, and preliminary deployment of
+millimeter-scale systems.
+</pre>
+			<p style="font-style: italic;">
+				<a id="abstract_pannuto15making-m3_raw_a" class="pub_abstract_raw">
+					Content has been formatted as TeX source. Click to format for web.
+				</a>
+			</p>
+		</div>
+		<div id="abstract_pannuto15making-m3_html">
+			<p>It has now been over fifteen years since Kris Pister&rsquo;s call for &ldquo;smart dust&rdquo;. Today, we are capable of building general purpose computing systems, including computation, storage, sensing, and communication, that fit in a cubic millimeter.  In this work, we discuss the lessons learned in the design, manufacture, debugging, and preliminary deployment of millimeter-scale systems. </p>
+			<p style="font-style: italic;">
+				<a id="abstract_pannuto15making-m3_html_a" class="pub_abstract_html">
+					Content has been formatted for web. Click to view raw TeX
+				</a>
+			</p>
+		</div>
+		</div>
+	</div>
+	
+</div>
+</li><li class="pub_type_workshops">
+<div class="timeline-badge timeline-badge-W">W</div>
+<div id="campbell15interfacing" class="timeline-panel pub_entry">
+	
+	<span class="bib_title">
+		
+		<a id="campbell15interfacing-title" href="pubs/campbell15interfacing.pdf">Interfacing the Internet of a Trillion Things</a>
+		
+	</span> <br />
+	
+	<span class="bib_authors">Bradford Campbell, <strong>Pat</strong> <strong>Pannuto</strong>, and Prabal Dutta</span><br />
+	
+	<span class="bib_conference">The Second International Workshop on the Swarm at the Edge of the Cloud (SEC&nbsp;&rsquo;15)</span><br />
+	
+	
+	<span class="pubs_links">
+		
+		<a id="campbell15interfacing-link" href="pubs/campbell15interfacing.pdf">[paper]</a>
+		
+		
+		
+		
+		<a id="bib_XXXatag_campbell15interfacing" class="pub_bibtex">[bibtex]</a>
+		
+		
+		<a id="abstract_XXXatag_campbell15interfacing" class="pub_abstract">[abstract]</a>
+		
+		
+		
+		
+		<a href="https://www.terraswarm.org/swec15/">[conference]</a>
+		
+		
+		
+	</span>
+	
+	<br />
+
+	
+	<div id="bib_campbell15interfacing" style="display: none;">
+		<pre>@inproceedings{campbell15interfacing,
+	keywords = {workshop},
+	title = {Interfacing the Internet of a Trillion Things},
+	booktitle = {The Second International Workshop on the Swarm at the Edge of the Cloud},
+	series = {SEC '15},
+	year = {2015},
+	mon = {Apr},
+	location = {Seattle, Washington, USA},
+	conference-url = {https://www.terraswarm.org/swec15/},
+	acceptance-accepted = {7},
+	author = {Campbell, Bradford and \textbf{Pannuto}, \textbf{Pat} and Dutta, Prabal},
+	badge = {W},
+	type = {workshops},
+	display-type = {paper},
+}</pre>
+	</div>
+	
+	
+	<div id="abstract_campbell15interfacing" class="panel panel-default" style="display: none;">
+		<div class="panel-body">
+		<div id="abstract_campbell15interfacing_raw" style="display: none;">
+			<pre>Meaningful, reusable applications built on top of ubiquitous and networked
+devices will be slow to materialize as long as device APIs vary widely, communication
+protocols are not standardized, and programming support is limited and
+inconsistent. When even feature-identical devices present different APIs
+and application creators are burdened with managing the variability,
+the promise of the swarm of devices will go unrealized. We start addressing
+this issue by providing a model for devices, based on input and output ports, that allows for a set of common
+interfaces to represent a range of devices. Further, we provide a solution
+to the bootstrapping problem, providing a general means to
+bridge the adoption gap for a new API for the Internet of Things.
+We borrow both the name, \emph{accessor}, and several key design concepts from
+a recent proposal by Latronico~et.\,al, for our interface layer that wraps
+currently non-conforming devices with the standard interface. We show how
+a small, straightforward to write (and read) JavaScript file can convert
+diverse devices into common interfaces that are conducive for creating applications.
+
+We realize our system with three environments that can execute accessors,
+Python, Java, and Node.js, a range of accessors for both IoT and legacy devices,
+and a browser-based application for interacting with devices using our proposed
+interfaces. We show how the same accessor mechanism can form synthetic devices
+with higher-level interfaces and we outline how our system can be extended
+to support authentication, accessor control, and cloud storage support.
+</pre>
+			<p style="font-style: italic;">
+				<a id="abstract_campbell15interfacing_raw_a" class="pub_abstract_raw">
+					Content has been formatted as TeX source. Click to format for web.
+				</a>
+			</p>
+		</div>
+		<div id="abstract_campbell15interfacing_html">
+			<p>Meaningful, reusable applications built on top of ubiquitous and networked devices will be slow to materialize as long as device APIs vary widely, communication protocols are not standardized, and programming support is limited and inconsistent. When even feature-identical devices present different APIs and application creators are burdened with managing the variability, the promise of the swarm of devices will go unrealized. We start addressing this issue by providing a model for devices, based on input and output ports, that allows for a set of common interfaces to represent a range of devices. Further, we provide a solution to the bootstrapping problem, providing a general means to bridge the adoption gap for a new API for the Internet of Things. We borrow both the name, <em>accessor</em>, and several key design concepts from a recent proposal by Latronico&nbsp;et. al, for our interface layer that wraps currently non-conforming devices with the standard interface. We show how a small, straightforward to write (and read) JavaScript file can convert diverse devices into common interfaces that are conducive for creating applications. </p><p> We realize our system with three environments that can execute accessors, Python, Java, and Node.js, a range of accessors for both IoT and legacy devices, and a browser-based application for interacting with devices using our proposed interfaces. We show how the same accessor mechanism can form synthetic devices with higher-level interfaces and we outline how our system can be extended to support authentication, accessor control, and cloud storage support. </p>
+			<p style="font-style: italic;">
+				<a id="abstract_campbell15interfacing_html_a" class="pub_abstract_html">
+					Content has been formatted for web. Click to view raw TeX
+				</a>
+			</p>
+		</div>
+		</div>
+	</div>
+	
+</div>
+</li><li class="pub_type_journals">
+<div class="timeline-badge timeline-badge-J">J</div>
+<div id="kempke15harmonia" class="timeline-panel pub_entry">
+	
+	<span class="bib_title">
+		
+		<a id="kempke15harmonia-title" href="pubs/kempke15harmonia.pdf">Harmonia: Wideband Spreading for Accurate Indoor RF Localization</a>
+		
+	</span> <br />
+	
+	<span class="bib_authors">Benjamin Kempke, <strong>Pat</strong> <strong>Pannuto</strong>, and Prabal Dutta</span><br />
+	
+	
+	<span class="bib_conference">SIGMOBILE Mobile Computing and Communications Review (MC<sup>2</sup>R), 18(3)</span><br />
+	
+	<span class="pubs_links">
+		
+		<a id="kempke15harmonia-link" href="pubs/kempke15harmonia.pdf">[paper]</a>
+		
+		
+		
+		
+		<a id="bib_XXXatag_kempke15harmonia" class="pub_bibtex">[bibtex]</a>
+		
+		
+		<a id="abstract_XXXatag_kempke15harmonia" class="pub_abstract">[abstract]</a>
+		
+		
+		
+		
+		<a href="http://www.sigmobile.org/pubs/mc2r/">[conference]</a>
+		
+		
+		
+		<a href="http://doi.acm.org/10.1145/2721896.2721901">[doi]</a>
+		
+	</span>
+	
+	<span class="bib_extra">Invited Paper</span>
+	
+	<br />
+
+	
+	<div id="bib_kempke15harmonia" style="display: none;">
+		<pre>@article{kempke15harmonia,
+	title = {Harmonia: Wideband Spreading for Accurate Indoor {RF} Localization},
+	journal = {SIGMOBILE Mobile Computing and Communications Review},
+	series = {MC$^2$R},
+	issue_date = {July 2014},
+	volume = {18},
+	number = {3},
+	month = {January},
+	year = {2015},
+	issn = {1559-1662},
+	pages = {19--25},
+	numpages = {7},
+	url = {http://doi.acm.org/10.1145/2721896.2721901},
+	doi = {10.1145/2721896.2721901},
+	acmid = {2721901},
+	publisher = {ACM},
+	address = {New York, NY, USA},
+	conference-url = {http://www.sigmobile.org/pubs/mc2r/},
+	extra = {Invited Paper},
+	author = {Kempke, Benjamin and \textbf{Pannuto}, \textbf{Pat} and Dutta, Prabal},
+	badge = {J},
+	type = {journals},
+	display-type = {paper},
+}</pre>
+	</div>
+	
+	
+	<div id="abstract_kempke15harmonia" class="panel panel-default" style="display: none;">
+		<div class="panel-body">
+		<div id="abstract_kempke15harmonia_raw" style="display: none;">
+			<pre>We introduce {\em Harmonia}, a new RF-based localization scheme
+that provides the simplicity, cost, and power advantages of
+traditional narrowband radios with the decimeter-scale
+accuracy of ultra wideband localization techniques. Harmonia is
+an asymmetric {\em tag} and {\em anchor} system, requiring
+minimal modifications to existing low-power wireless devices
+to support high-fidelity localization with comparatively
+modest infrastructure costs.  A prototype Harmonia design offers
+location estimates with an average-case error of 53.4~cm in
+complex, heavy-multipath, indoor environments and captures
+location estimates at 56~Hz while requiring only 1.7~mA
+additional power draw for each tag and complying with all
+US~UWB regulations.  We believe this architecture's
+combination of accuracy, update rate, power draw, and system
+complexity will lead to a new point in the design space.
+</pre>
+			<p style="font-style: italic;">
+				<a id="abstract_kempke15harmonia_raw_a" class="pub_abstract_raw">
+					Content has been formatted as TeX source. Click to format for web.
+				</a>
+			</p>
+		</div>
+		<div id="abstract_kempke15harmonia_html">
+			<p>We introduce <em> Harmonia</em>, a new RF-based localization scheme that provides the simplicity, cost, and power advantages of traditional narrowband radios with the decimeter-scale accuracy of ultra wideband localization techniques. Harmonia is an asymmetric <em> tag</em> and <em> anchor</em> system, requiring minimal modifications to existing low-power wireless devices to support high-fidelity localization with comparatively modest infrastructure costs.  A prototype Harmonia design offers location estimates with an average-case error of 53.4&nbsp;cm in complex, heavy-multipath, indoor environments and captures location estimates at 56&nbsp;Hz while requiring only 1.7&nbsp;mA additional power draw for each tag and complying with all US&nbsp;UWB regulations.  We believe this architecture&rsquo;s combination of accuracy, update rate, power draw, and system complexity will lead to a new point in the design space. </p>
+			<p style="font-style: italic;">
+				<a id="abstract_kempke15harmonia_html_a" class="pub_abstract_html">
+					Content has been formatted for web. Click to view raw TeX
+				</a>
+			</p>
+		</div>
+		</div>
+	</div>
+	
+</div>
+</li>
+</ul>
+
+</div><div id="pubdiv_2014">
+
+<h2>2014</h2>
+
+<ul class="timeline">
+	<li class="pub_type_conferences">
+<div class="timeline-badge timeline-badge-C">C</div>
+<div id="huang14opo" class="timeline-panel pub_entry">
+	
+	<span class="bib_title">
+		
+		<a id="huang14opo-title" href="pubs/huang14opo.pdf">Opo: A Wearable Sensor for Capturing High-Fidelity Face-to-Face Interactions</a>
+		
+	</span> <br />
+	
+	<span class="bib_authors">William Huang, Ye-Sheng Kuo, <strong>Pat</strong> <strong>Pannuto</strong>, and Prabal Dutta</span><br />
+	
+	<span class="bib_conference">Proceedings of the 12th ACM Conference on Embedded Networked Sensor Systems (SenSys&nbsp;&rsquo;14)</span><br />
+	
+	
+	<span class="pubs_links">
+		
+		<a id="huang14opo-link" href="pubs/huang14opo.pdf">[paper]</a>
+		
+		
+		
+		
+		<a id="bib_XXXatag_huang14opo" class="pub_bibtex">[bibtex]</a>
+		
+		
+		<a id="abstract_XXXatag_huang14opo" class="pub_abstract">[abstract]</a>
+		
+		
+		
+		
+		<a href="http://sensys.acm.org/2014/" title="Acceptance: 21 / 117 (18%)">[conference]</a>
+		
+		
+		
+	</span>
+	
+	<br />
+
+	
+	<div id="bib_huang14opo" style="display: none;">
+		<pre>@inproceedings{huang14opo,
+	keywords = {conf},
+	title = {Opo: A Wearable Sensor for Capturing High-Fidelity Face-to-Face Interactions},
+	booktitle = {Proceedings of the 12th ACM Conference on Embedded Networked Sensor Systems},
+	series = {SenSys '14},
+	year = {2014},
+	mon = {Nov},
+	isbn = {978-1-4503-3143-2},
+	location = {Memphis, Tennessee, USA},
+	publisher = {ACM},
+	address = {New York, NY, USA},
+	conference-url = {http://sensys.acm.org/2014/},
+	acceptance-accepted = {21},
+	acceptance-total = {117},
+	author = {Huang, William and Kuo, Ye-Sheng and \textbf{Pannuto}, \textbf{Pat} and Dutta, Prabal},
+	badge = {C},
+	type = {conferences},
+	display-type = {paper},
+}</pre>
+	</div>
+	
+	
+	<div id="abstract_huang14opo" class="panel panel-default" style="display: none;">
+		<div class="panel-body">
+		<div id="abstract_huang14opo_raw" style="display: none;">
+			<pre>Currently, researchers study face-to-face interactions using wearable sensors and
+smartphones which provide 2 to 5~m proximity sensing every 20 to 300~s.
+However, studying interaction distance, which is known to
+impact disease spread, communication behavior, and other phenomenon, has
+proven challenging.
+Smartphones are limited by their inaccurate and/or
+impractical ranging capabilities, while wearable sensors
+are limited by their need for
+infrastructure nodes, bulkiness, and/or inaccurate ranging.
+To address these challenges, we present Opo, a 14~cm$^2$, 11.4~g ``lapel pin''
+built from commercial components.
+Opo sensors range neighbors every 2~s up to 2~m away with 5\% average
+error, all while requiring zero
+infrastructure and improving upon current wearable sensors' accuracy and power usage.
+The cornerstone of Opo is an ultrasonic wakeup circuit that draws 19~\uA
+when no neighbors are present. This enables Opo sensors to discover and range
+neighbors without the need for infrastructure nodes and slow or power-hungry
+RF discovery protocols.
+Thus, Opo is able to sense interaction distance with high accuracy (5~cm)
+and temporal fidelity (2~s) on a limited power budget.
+</pre>
+			<p style="font-style: italic;">
+				<a id="abstract_huang14opo_raw_a" class="pub_abstract_raw">
+					Content has been formatted as TeX source. Click to format for web.
+				</a>
+			</p>
+		</div>
+		<div id="abstract_huang14opo_html">
+			<p>Currently, researchers study face-to-face interactions using wearable sensors and smartphones which provide 2 to 5&nbsp;m proximity sensing every 20 to 300&nbsp;s. However, studying interaction distance, which is known to impact disease spread, communication behavior, and other phenomenon, has proven challenging. Smartphones are limited by their inaccurate and/or impractical ranging capabilities, while wearable sensors are limited by their need for infrastructure nodes, bulkiness, and/or inaccurate ranging. To address these challenges, we present Opo, a 14&nbsp;cm<sup>2</sup>, 11.4&nbsp;g &ldquo;lapel pin&rdquo; built from commercial components. Opo sensors range neighbors every 2&nbsp;s up to 2&nbsp;m away with 5% average error, all while requiring zero infrastructure and improving upon current wearable sensors&rsquo; accuracy and power usage. The cornerstone of Opo is an ultrasonic wakeup circuit that draws 19&nbsp;&mu;A
+when no neighbors are present. This enables Opo sensors to discover and range neighbors without the need for infrastructure nodes and slow or power-hungry RF discovery protocols. Thus, Opo is able to sense interaction distance with high accuracy (5&nbsp;cm) and temporal fidelity (2&nbsp;s) on a limited power budget. </p>
+			<p style="font-style: italic;">
+				<a id="abstract_huang14opo_html_a" class="pub_abstract_html">
+					Content has been formatted for web. Click to view raw TeX
+				</a>
+			</p>
+		</div>
+		</div>
+	</div>
+	
+</div>
+</li><li class="pub_type_posterdemo">
+<div class="timeline-badge timeline-badge-PD">PD</div>
+<div id="pannuto14postmote" class="timeline-panel pub_entry">
+	
+	<span class="bib_title">
+		
+		<a id="pannuto14postmote-title" href="pubs/pannuto14postmote.pdf">Poster Abstract: A Networked Embedded System Platform for the Post-Mote Era</a>
+		
+	</span> <br />
+	
+	<span class="bib_authors"><strong>Pat</strong> <strong>Pannuto</strong>, Michael P Andersen, Tom Bauer, Bradford Campbell, Amit Levy, David Culler, Philip Levis, and Prabal Dutta</span><br />
+	
+	<span class="bib_conference">Proceedings of the 12th ACM Conference on Embedded Networked Sensor Systems (SenSys&nbsp;&rsquo;14)</span><br />
+	
+	
+	<span class="pubs_links">
+		
+		<a id="pannuto14postmote-link" href="pubs/pannuto14postmote.pdf">[paper]</a>
+		
+		
+		
+		
+		<a id="bib_XXXatag_pannuto14postmote" class="pub_bibtex">[bibtex]</a>
+		
+		
+		<a id="abstract_XXXatag_pannuto14postmote" class="pub_abstract">[abstract]</a>
+		
+		
+		
+		
+		<a href="http://sensys.acm.org/2014/">[conference]</a>
+		
+		
+		
+	</span>
+	
+	<br />
+
+	
+	<div id="bib_pannuto14postmote" style="display: none;">
+		<pre>@inproceedings{pannuto14postmote,
+	keywords = {posterdemo},
+	title = {Poster Abstract: A Networked Embedded System Platform for the Post-Mote Era},
+	booktitle = {Proceedings of the 12th ACM Conference on Embedded Networked Sensor Systems},
+	series = {SenSys '14},
+	year = {2014},
+	mon = {Nov},
+	location = {Memphis, Tennessee, USA},
+	publisher = {ACM},
+	address = {New York, NY, USA},
+	conference-url = {http://sensys.acm.org/2014/},
+	author = {\textbf{Pannuto}, \textbf{Pat} and Andersen, Michael P and Bauer, Tom and Campbell, Bradford and Levy, Amit and Culler, David and Levis, Philip and Dutta, Prabal},
+	badge = {PD},
+	type = {posterdemo},
+	display-type = {paper},
+}</pre>
+	</div>
+	
+	
+	<div id="abstract_pannuto14postmote" class="panel panel-default" style="display: none;">
+		<div class="panel-body">
+		<div id="abstract_pannuto14postmote_raw" style="display: none;">
+			<pre>For the last fifteen years, research explored the hardware,
+software, sensing, communication abstractions, languages, and
+protocols that could make networks of small, embedded
+devices---motes---sample and report data for long
+periods of time unattended.
+Today, the application and technological landscapes
+have shifted, introducing new requirements and new
+capabilities. Hardware has evolved past 8~and 16~bit
+microcontrollers: there are now 32~bit processors with
+lower energy budgets and greater computing capability.
+New wireless link layers have emerged, creating
+protocols that support rapid and efficient setup and
+teardown but introduce novel limitations that systems
+must consider.
+The time has come to look beyond optimizing networks of
+motes. We look towards new technologies such as
+Bluetooth Low Energy, Cortex~M processors, and capable
+energy harvesting, with new application spaces such as
+personal area networks, and new capabilities and
+requirements in security and privacy to inform
+contemporary hardware and software platforms.  It is
+time for a new, open experimental platform in this
+post-mote era.
+</pre>
+			<p style="font-style: italic;">
+				<a id="abstract_pannuto14postmote_raw_a" class="pub_abstract_raw">
+					Content has been formatted as TeX source. Click to format for web.
+				</a>
+			</p>
+		</div>
+		<div id="abstract_pannuto14postmote_html">
+			<p>For the last fifteen years, research explored the hardware, software, sensing, communication abstractions, languages, and protocols that could make networks of small, embedded devices&mdash;motes&mdash;sample and report data for long periods of time unattended. Today, the application and technological landscapes have shifted, introducing new requirements and new capabilities. Hardware has evolved past 8&nbsp;and 16&nbsp;bit microcontrollers: there are now 32&nbsp;bit processors with lower energy budgets and greater computing capability. New wireless link layers have emerged, creating protocols that support rapid and efficient setup and teardown but introduce novel limitations that systems must consider. The time has come to look beyond optimizing networks of motes. We look towards new technologies such as Bluetooth Low Energy, Cortex&nbsp;M processors, and capable energy harvesting, with new application spaces such as personal area networks, and new capabilities and requirements in security and privacy to inform contemporary hardware and software platforms.  It is time for a new, open experimental platform in this post-mote era. </p>
+			<p style="font-style: italic;">
+				<a id="abstract_pannuto14postmote_html_a" class="pub_abstract_html">
+					Content has been formatted for web. Click to view raw TeX
+				</a>
+			</p>
+		</div>
+		</div>
+	</div>
+	
+</div>
+</li><li class="pub_type_conferences">
+<div class="timeline-badge timeline-badge-C">C</div>
+<div id="kuo14mbus" class="timeline-panel pub_entry">
+	
+	<span class="bib_title">
+		
+		<a id="kuo14mbus-title" href="pubs/kuo14mbus.pdf">MBus: A 17.5&nbsp;pJ/bit Portable Interconnect Bus for Millimeter-Scale Sensor Systems with 8&nbsp;nW Standby Power</a>
+		
+	</span> <br />
+	
+	<span class="bib_authors">Ye-Sheng Kuo, <strong>Pat</strong> <strong>Pannuto</strong>, Gyouho Kim, Zhi Yoong Foo, Inhee Lee, Benjamin Kempke, Prabal Dutta, David Blaauw, and Yoonmyung Lee</span><br />
+	
+	<span class="bib_conference">CICC &rsquo;14: IEEE Custom Integrated Circuits Conference</span><br />
+	
+	
+	<span class="pubs_links">
+		
+		<a id="kuo14mbus-link" href="pubs/kuo14mbus.pdf">[paper]</a>
+		
+		
+		
+		
+		<a id="bib_XXXatag_kuo14mbus" class="pub_bibtex">[bibtex]</a>
+		
+		
+		<a id="abstract_XXXatag_kuo14mbus" class="pub_abstract">[abstract]</a>
+		
+		
+		
+		
+		<a href="http://www.iee-cicc.org" title="Acceptance: 94 / 266 (35%)">[conference]</a>
+		
+		
+		
+	</span>
+	
+	<br />
+
+	
+	<div id="bib_kuo14mbus" style="display: none;">
+		<pre>@inproceedings{kuo14mbus,
+	keywords = {conf},
+	booktitle = {CICC '14: IEEE Custom Integrated Circuits Conference},
+	title = {{MBus}: A 17.5~{pJ}/bit Portable Interconnect Bus for Millimeter-Scale Sensor Systems with 8~{nW} Standby Power},
+	year = {2014},
+	month = {September},
+	location = {San Jose, California, USA},
+	conference-url = {http://www.iee-cicc.org},
+	acceptance-accepted = {94},
+	acceptance-total = {266},
+	author = {Kuo, Ye-Sheng and \textbf{Pannuto}, \textbf{Pat} and Kim, Gyouho and Foo, Zhi~{Y}oong and Lee, Inhee and Kempke, Benjamin and Dutta, Prabal and Blaauw, David and Lee, Yoonmyung},
+	badge = {C},
+	type = {conferences},
+	display-type = {paper},
+}</pre>
+	</div>
+	
+	
+	<div id="abstract_kuo14mbus" class="panel panel-default" style="display: none;">
+		<div class="panel-body">
+		<div id="abstract_kuo14mbus_raw" style="display: none;">
+			<pre>We propose an ultra-low power interconnect bus for
+millimeter-scale wireless sensor nodes. Using only 4~IO pads,
+the bus minimizes the required chip real estate, enabling
+ultra-small form factors in modular sensor node
+designs. Low power is achieved using a ``clockless''
+design of member nodes while aggressive power gating
+allows an ultra-low power standby mode with only
+53~gates powered on. An integrated wakeup scheme is
+compatible with PMUs that have a special low power
+standby mode. The MBus is fully synthesizable and uses
+robust timing. Implemented in a 3~module system in
+180~nm technology, Mbus achieves 8~nW of standby power
+and 17.5~pJ/bit/chip.
+</pre>
+			<p style="font-style: italic;">
+				<a id="abstract_kuo14mbus_raw_a" class="pub_abstract_raw">
+					Content has been formatted as TeX source. Click to format for web.
+				</a>
+			</p>
+		</div>
+		<div id="abstract_kuo14mbus_html">
+			<p>We propose an ultra-low power interconnect bus for millimeter-scale wireless sensor nodes. Using only 4&nbsp;IO pads, the bus minimizes the required chip real estate, enabling ultra-small form factors in modular sensor node designs. Low power is achieved using a &ldquo;clockless&rdquo; design of member nodes while aggressive power gating allows an ultra-low power standby mode with only 53&nbsp;gates powered on. An integrated wakeup scheme is compatible with PMUs that have a special low power standby mode. The MBus is fully synthesizable and uses robust timing. Implemented in a 3&nbsp;module system in 180&nbsp;nm technology, Mbus achieves 8&nbsp;nW of standby power and 17.5&nbsp;pJ/bit/chip. </p>
+			<p style="font-style: italic;">
+				<a id="abstract_kuo14mbus_html_a" class="pub_abstract_html">
+					Content has been formatted for web. Click to view raw TeX
+				</a>
+			</p>
+		</div>
+		</div>
+	</div>
+	
+</div>
+</li><li class="pub_type_posterdemo">
+<div class="timeline-badge timeline-badge-PD">PD</div>
+<div id="kuo14luxapose_mobicom_demo" class="timeline-panel pub_entry">
+	
+	<span class="bib_title">
+		
+		<a id="kuo14luxapose_mobicom_demo-title" href="pubs/kuo14luxapose_mobicom_demo.pdf">Demo &mdash; Luxapose: Indoor Positioning with Mobile Phones and Visible Light</a>
+		
+	</span> <br />
+	
+	<span class="bib_authors">Ye-Sheng Kuo, <strong>Pat</strong> <strong>Pannuto</strong>, and Prabal Dutta</span><br />
+	
+	<span class="bib_conference">The 20th Annual International Conference on Mobile Computing and Networking (MobiCom&nbsp;&rsquo;14)</span><br />
+	
+	
+	<span class="pubs_links">
+		
+		<a id="kuo14luxapose_mobicom_demo-link" href="pubs/kuo14luxapose_mobicom_demo.pdf">[paper]</a>
+		
+		
+		
+		<a href="https://www.youtube.com/watch?v=HSNY0XVXM1w" target="_blank">[video <i class="fa fa-external-link"></i>]</a>
+		
+		
+		<a id="bib_XXXatag_kuo14luxapose_mobicom_demo" class="pub_bibtex">[bibtex]</a>
+		
+		
+		<a id="abstract_XXXatag_kuo14luxapose_mobicom_demo" class="pub_abstract">[abstract]</a>
+		
+		
+		
+		
+		<a href="http://www.sigmobile.com/mobicom/2014/">[conference]</a>
+		
+		
+		
+	</span>
+	
+	<br />
+
+	
+	<div id="bib_kuo14luxapose_mobicom_demo" style="display: none;">
+		<pre>@inproceedings{kuo14luxapose_mobicom_demo,
+	keywords = {posterdemo},
+	booktitle = {The 20th Annual International Conference on Mobile Computing and Networking},
+	title = {Demo --- {Luxapose}: {I}ndoor Positioning with Mobile Phones and Visible Light},
+	series = {MobiCom '14},
+	year = {2014},
+	month = {September},
+	location = {Maui, Hawaii, USA},
+	conference-url = {http://www.sigmobile.com/mobicom/2014/},
+	video-url = {https://www.youtube.com/watch?v=HSNY0XVXM1w},
+	author = {Kuo, Ye-Sheng and \textbf{Pannuto}, \textbf{Pat} and Dutta, Prabal},
+	badge = {PD},
+	type = {posterdemo},
+	display-type = {paper},
+}</pre>
+	</div>
+	
+	
+	<div id="abstract_kuo14luxapose_mobicom_demo" class="panel panel-default" style="display: none;">
+		<div class="panel-body">
+		<div id="abstract_kuo14luxapose_mobicom_demo_raw" style="display: none;">
+			<pre>We explore the indoor positioning problem with unmodified smartphones
+and slightly-modified commercial LED luminaires.  The
+luminaires---modified to allow rapid, on-off keying---transmit their
+identifiers and/or locations encoded in human-imperceptible optical
+pulses.  A camera-equipped smartphone, using just a single image frame
+capture, can detect the presence of the luminaires in the image,
+decode their transmitted identifiers and/or locations, and determine
+the smartphone's location and orientation relative to the luminaires.
+Continuous image capture and processing enables continuous position
+updates.
+The key insights underlying this work are (i) the driver circuits of
+emerging LED lighting systems can be easily modified to transmit data
+through on-off keying; (ii) the rolling shutter effect of CMOS imagers
+can be leveraged to receive many bits of data encoded in the optical
+transmissions with just a single frame capture, (iii) a camera is
+intrinsically an angle-of-arrival sensor, so the projection of
+multiple nearby light sources with known positions onto a camera's
+image plane can be framed as an instance of a sufficiently-constrained
+angle-of-arrival localization problem, and (iv) this problem can be
+solved with optimization techniques.
+</pre>
+			<p style="font-style: italic;">
+				<a id="abstract_kuo14luxapose_mobicom_demo_raw_a" class="pub_abstract_raw">
+					Content has been formatted as TeX source. Click to format for web.
+				</a>
+			</p>
+		</div>
+		<div id="abstract_kuo14luxapose_mobicom_demo_html">
+			<p>We explore the indoor positioning problem with unmodified smartphones and slightly-modified commercial LED luminaires.  The luminaires&mdash;modified to allow rapid, on-off keying&mdash;transmit their identifiers and/or locations encoded in human-imperceptible optical pulses.  A camera-equipped smartphone, using just a single image frame capture, can detect the presence of the luminaires in the image, decode their transmitted identifiers and/or locations, and determine the smartphone&rsquo;s location and orientation relative to the luminaires. Continuous image capture and processing enables continuous position updates. The key insights underlying this work are (i) the driver circuits of emerging LED lighting systems can be easily modified to transmit data through on-off keying; (ii) the rolling shutter effect of CMOS imagers can be leveraged to receive many bits of data encoded in the optical transmissions with just a single frame capture, (iii) a camera is intrinsically an angle-of-arrival sensor, so the projection of multiple nearby light sources with known positions onto a camera&rsquo;s image plane can be framed as an instance of a sufficiently-constrained angle-of-arrival localization problem, and (iv) this problem can be solved with optimization techniques. </p>
+			<p style="font-style: italic;">
+				<a id="abstract_kuo14luxapose_mobicom_demo_html_a" class="pub_abstract_html">
+					Content has been formatted for web. Click to view raw TeX
+				</a>
+			</p>
+		</div>
+		</div>
+	</div>
+	
+</div>
+</li><li class="pub_type_posterdemo">
+<div class="timeline-badge timeline-badge-PD">PD</div>
+<div id="kuo14luxapose_vlcs_demo" class="timeline-panel pub_entry">
+	
+	<span class="bib_title">
+		
+		<a id="kuo14luxapose_vlcs_demo-title" href="pubs/kuo14luxapose_vlcs_demo.pdf">Demo &mdash; Luxapose: Indoor Positioning with Mobile Phones and Visible Light</a>
+		
+	</span> <br />
+	
+	<span class="bib_authors">Ye-Sheng Kuo, <strong>Pat</strong> <strong>Pannuto</strong>, and Prabal Dutta</span><br />
+	
+	<span class="bib_conference">1st ACM Workshop on Visible Light Communication Systems (VLCS&nbsp;&rsquo;14)</span><br />
+	
+	
+	<span class="pubs_links">
+		
+		<a id="kuo14luxapose_vlcs_demo-link" href="pubs/kuo14luxapose_vlcs_demo.pdf">[paper]</a>
+		
+		
+		<a id="kuo14luxapose_vlcs_demo-talk" href="/talks.html#vlcs14">[talk]</a>
+		
+		
+		<a href="https://www.youtube.com/watch?v=HSNY0XVXM1w" target="_blank">[video <i class="fa fa-external-link"></i>]</a>
+		
+		
+		<a id="bib_XXXatag_kuo14luxapose_vlcs_demo" class="pub_bibtex">[bibtex]</a>
+		
+		
+		<a id="abstract_XXXatag_kuo14luxapose_vlcs_demo" class="pub_abstract">[abstract]</a>
+		
+		
+		
+		
+		<a href="http://www.networks.rice.edu/VLCS-2014/">[conference]</a>
+		
+		
+		
+	</span>
+	
+	<br />
+
+	
+	<div id="bib_kuo14luxapose_vlcs_demo" style="display: none;">
+		<pre>@inproceedings{kuo14luxapose_vlcs_demo,
+	keywords = {posterdemo},
+	title = {Demo --- {Luxapose}: {I}ndoor Positioning with Mobile Phones and Visible Light},
+	booktitle = {1st ACM Workshop on Visible Light Communication Systems},
+	series = {VLCS '14},
+	year = {2014},
+	month = {September},
+	location = {Maui, Hawaii, USA},
+	conference-url = {http://www.networks.rice.edu/VLCS-2014/},
+	video-url = {https://www.youtube.com/watch?v=HSNY0XVXM1w},
+	author = {Kuo, Ye-Sheng and \textbf{Pannuto}, \textbf{Pat} and Dutta, Prabal},
+	badge = {PD},
+	type = {posterdemo},
+	display-type = {paper},
+}</pre>
+	</div>
+	
+	
+	<div id="abstract_kuo14luxapose_vlcs_demo" class="panel panel-default" style="display: none;">
+		<div class="panel-body">
+		<div id="abstract_kuo14luxapose_vlcs_demo_raw" style="display: none;">
+			<pre>We explore the indoor positioning problem with unmodified smartphones
+and slightly-modified commercial LED luminaires.  The
+luminaires---modified to allow rapid, on-off keying---transmit their
+identifiers and/or locations encoded in human-imperceptible optical
+pulses.  A camera-equipped smartphone, using just a single image frame
+capture, can detect the presence of the luminaires in the image,
+decode their transmitted identifiers and/or locations, and determine
+the smartphone's location and orientation relative to the luminaires.
+Continuous image capture and processing enables continuous position
+updates.
+The key insights underlying this work are (i) the driver circuits of
+emerging LED lighting systems can be easily modified to transmit data
+through on-off keying; (ii) the rolling shutter effect of CMOS imagers
+can be leveraged to receive many bits of data encoded in the optical
+transmissions with just a single frame capture, (iii) a camera is
+intrinsically an angle-of-arrival sensor, so the projection of
+multiple nearby light sources with known positions onto a camera's
+image plane can be framed as an instance of a sufficiently-constrained
+angle-of-arrival localization problem, and (iv) this problem can be
+solved with optimization techniques.
+</pre>
+			<p style="font-style: italic;">
+				<a id="abstract_kuo14luxapose_vlcs_demo_raw_a" class="pub_abstract_raw">
+					Content has been formatted as TeX source. Click to format for web.
+				</a>
+			</p>
+		</div>
+		<div id="abstract_kuo14luxapose_vlcs_demo_html">
+			<p>We explore the indoor positioning problem with unmodified smartphones and slightly-modified commercial LED luminaires.  The luminaires&mdash;modified to allow rapid, on-off keying&mdash;transmit their identifiers and/or locations encoded in human-imperceptible optical pulses.  A camera-equipped smartphone, using just a single image frame capture, can detect the presence of the luminaires in the image, decode their transmitted identifiers and/or locations, and determine the smartphone&rsquo;s location and orientation relative to the luminaires. Continuous image capture and processing enables continuous position updates. The key insights underlying this work are (i) the driver circuits of emerging LED lighting systems can be easily modified to transmit data through on-off keying; (ii) the rolling shutter effect of CMOS imagers can be leveraged to receive many bits of data encoded in the optical transmissions with just a single frame capture, (iii) a camera is intrinsically an angle-of-arrival sensor, so the projection of multiple nearby light sources with known positions onto a camera&rsquo;s image plane can be framed as an instance of a sufficiently-constrained angle-of-arrival localization problem, and (iv) this problem can be solved with optimization techniques. </p>
+			<p style="font-style: italic;">
+				<a id="abstract_kuo14luxapose_vlcs_demo_html_a" class="pub_abstract_html">
+					Content has been formatted for web. Click to view raw TeX
+				</a>
+			</p>
+		</div>
+		</div>
+	</div>
+	
+</div>
+</li><li class="pub_type_workshops">
+<div class="timeline-badge timeline-badge-W">W</div>
+<div id="kempke14harmonia" class="timeline-panel pub_entry">
+	
+	<span class="bib_title">
+		
+		<a id="kempke14harmonia-title" href="pubs/kempke14harmonia.pdf">Harmonia: Wideband Spreading for Accurate Indoor RF Localization</a>
+		
+	</span> <br />
+	
+	<span class="bib_authors">Benjamin Kempke, <strong>Pat</strong> <strong>Pannuto</strong>, and Prabal Dutta</span><br />
+	
+	<span class="bib_conference">2014 ACM Workshop on Hot Topics in Wireless (HotWireless&nbsp;&rsquo;14)</span><br />
+	
+	
+	<span class="pubs_links">
+		
+		<a id="kempke14harmonia-link" href="pubs/kempke14harmonia.pdf">[paper]</a>
+		
+		
+		
+		
+		<a id="bib_XXXatag_kempke14harmonia" class="pub_bibtex">[bibtex]</a>
+		
+		
+		<a id="abstract_XXXatag_kempke14harmonia" class="pub_abstract">[abstract]</a>
+		
+		
+		
+		
+		<a href="http://hotwireless.cs.umass.edu/">[conference]</a>
+		
+		
+		
+	</span>
+	
+	<br />
+
+	
+	<div id="bib_kempke14harmonia" style="display: none;">
+		<pre>@inproceedings{kempke14harmonia,
+	keywords = {workshop},
+	title = {Harmonia: Wideband Spreading for Accurate Indoor {RF} Localization},
+	booktitle = {2014 ACM Workshop on Hot Topics in Wireless},
+	series = {HotWireless '14},
+	year = {2014},
+	month = {September},
+	location = {Maui, Hawaii, USA},
+	conference-url = {http://hotwireless.cs.umass.edu/},
+	author = {Kempke, Benjamin and \textbf{Pannuto}, \textbf{Pat} and Dutta, Prabal},
+	badge = {W},
+	type = {workshops},
+	display-type = {paper},
+}</pre>
+	</div>
+	
+	
+	<div id="abstract_kempke14harmonia" class="panel panel-default" style="display: none;">
+		<div class="panel-body">
+		<div id="abstract_kempke14harmonia_raw" style="display: none;">
+			<pre>We introduce {\em Harmonia}, a new RF-based localization scheme
+that provides the simplicity, cost, and power advantages of
+traditional narrowband radios with the decimeter-scale
+accuracy of ultra wideband localization techniques. Harmonia is
+an asymmetric {\em tag} and {\em anchor} system, requiring
+minimal modifications to existing low-power wireless devices
+to support high-fidelity localization with comparatively
+modest infrastructure costs.  A prototype Harmonia design offers
+location estimates with an average-case error of 53.4~cm in
+complex, heavy-multipath, indoor environments and captures
+location estimates at 56~Hz while requiring only 1.7~mA
+additional power draw for each tag and complying with all
+US~UWB regulations.  We believe this architecture's
+combination of accuracy, update rate, power draw, and system
+complexity will lead to a new point in the design space.
+</pre>
+			<p style="font-style: italic;">
+				<a id="abstract_kempke14harmonia_raw_a" class="pub_abstract_raw">
+					Content has been formatted as TeX source. Click to format for web.
+				</a>
+			</p>
+		</div>
+		<div id="abstract_kempke14harmonia_html">
+			<p>We introduce <em> Harmonia</em>, a new RF-based localization scheme that provides the simplicity, cost, and power advantages of traditional narrowband radios with the decimeter-scale accuracy of ultra wideband localization techniques. Harmonia is an asymmetric <em> tag</em> and <em> anchor</em> system, requiring minimal modifications to existing low-power wireless devices to support high-fidelity localization with comparatively modest infrastructure costs.  A prototype Harmonia design offers location estimates with an average-case error of 53.4&nbsp;cm in complex, heavy-multipath, indoor environments and captures location estimates at 56&nbsp;Hz while requiring only 1.7&nbsp;mA additional power draw for each tag and complying with all US&nbsp;UWB regulations.  We believe this architecture&rsquo;s combination of accuracy, update rate, power draw, and system complexity will lead to a new point in the design space. </p>
+			<p style="font-style: italic;">
+				<a id="abstract_kempke14harmonia_html_a" class="pub_abstract_html">
+					Content has been formatted for web. Click to view raw TeX
+				</a>
+			</p>
+		</div>
+		</div>
+	</div>
+	
+</div>
+</li><li class="pub_type_conferences">
+<div class="timeline-badge timeline-badge-C">C</div>
+<div id="kuo14luxapose" class="timeline-panel pub_entry">
+	
+	<span class="bib_title">
+		
+		<a id="kuo14luxapose-title" href="pubs/kuo14luxapose.pdf">Luxapose: Indoor Positioning with Mobile Phones and Visible Light</a>
+		
+	</span> <br />
+	
+	<span class="bib_authors">Ye-Sheng Kuo, <strong>Pat</strong> <strong>Pannuto</strong>, Ko-Jen Hsiao, and Prabal Dutta</span><br />
+	
+	<span class="bib_conference">The 20th Annual International Conference on Mobile Computing and Networking (MobiCom&nbsp;&rsquo;14)</span><br />
+	
+	
+	<span class="pubs_links">
+		
+		<a id="kuo14luxapose-link" href="pubs/kuo14luxapose.pdf">[paper]</a>
+		
+		
+		
+		
+		<a id="bib_XXXatag_kuo14luxapose" class="pub_bibtex">[bibtex]</a>
+		
+		
+		<a id="abstract_XXXatag_kuo14luxapose" class="pub_abstract">[abstract]</a>
+		
+		
+		
+		
+		<a href="http://www.sigmobile.com/mobicom/2014/" title="Acceptance: 36 / 220 (16%)">[conference]</a>
+		
+		
+		
+	</span>
+	
+	<br />
+
+	
+	<div id="bib_kuo14luxapose" style="display: none;">
+		<pre>@inproceedings{kuo14luxapose,
+	keywords = {conf},
+	booktitle = {The 20th Annual International Conference on Mobile Computing and Networking},
+	title = {Luxapose: Indoor Positioning with Mobile Phones and Visible Light},
+	series = {MobiCom '14},
+	year = {2014},
+	month = {September},
+	location = {Maui, Hawaii, USA},
+	conference-url = {http://www.sigmobile.com/mobicom/2014/},
+	acceptance-accepted = {36},
+	acceptance-total = {220},
+	author = {Kuo, Ye-Sheng and \textbf{Pannuto}, \textbf{Pat} and Hsiao, Ko-Jen and Dutta, Prabal},
+	badge = {C},
+	type = {conferences},
+	display-type = {paper},
+}</pre>
+	</div>
+	
+	
+	<div id="abstract_kuo14luxapose" class="panel panel-default" style="display: none;">
+		<div class="panel-body">
+		<div id="abstract_kuo14luxapose_raw" style="display: none;">
+			<pre>We explore the indoor positioning problem with unmodified smartphones
+and slightly-modified commercial LED luminaires.  The
+luminaires---modified to allow rapid, on-off keying---transmit their
+identifiers and/or locations encoded in human-imperceptible optical
+pulses.  A camera-equipped smartphone, using just a single image frame
+capture, can detect the presence of the luminaires in the image,
+decode their transmitted identifiers and/or locations, and determine
+the smartphone's location and orientation relative to the luminaires.
+Continuous image capture and processing enables continuous position
+updates.
+The key insights underlying this work are (i) the driver circuits of
+emerging LED lighting systems can be easily modified to transmit data
+through on-off keying; (ii) the rolling shutter effect of CMOS imagers
+can be leveraged to receive many bits of data encoded in the optical
+transmissions with just a single frame capture, (iii) a camera is
+intrinsically an angle-of-arrival sensor, so the projection of
+multiple nearby light sources with known positions onto a camera's
+image plane can be framed as an instance of a sufficiently-constrained
+angle-of-arrival localization problem, and (iv) this problem can be
+solved with optimization techniques.  We explore the feasibility of
+the design through an analytical model, demonstrate the viability of
+the design through a prototype system, discuss the challenges to a
+practical deployment including usability and scalability, and
+demonstrate decimeter-level accuracy in both carefully controlled and
+more realistic human mobility scenarios.
+</pre>
+			<p style="font-style: italic;">
+				<a id="abstract_kuo14luxapose_raw_a" class="pub_abstract_raw">
+					Content has been formatted as TeX source. Click to format for web.
+				</a>
+			</p>
+		</div>
+		<div id="abstract_kuo14luxapose_html">
+			<p>We explore the indoor positioning problem with unmodified smartphones and slightly-modified commercial LED luminaires.  The luminaires&mdash;modified to allow rapid, on-off keying&mdash;transmit their identifiers and/or locations encoded in human-imperceptible optical pulses.  A camera-equipped smartphone, using just a single image frame capture, can detect the presence of the luminaires in the image, decode their transmitted identifiers and/or locations, and determine the smartphone&rsquo;s location and orientation relative to the luminaires. Continuous image capture and processing enables continuous position updates. The key insights underlying this work are (i) the driver circuits of emerging LED lighting systems can be easily modified to transmit data through on-off keying; (ii) the rolling shutter effect of CMOS imagers can be leveraged to receive many bits of data encoded in the optical transmissions with just a single frame capture, (iii) a camera is intrinsically an angle-of-arrival sensor, so the projection of multiple nearby light sources with known positions onto a camera&rsquo;s image plane can be framed as an instance of a sufficiently-constrained angle-of-arrival localization problem, and (iv) this problem can be solved with optimization techniques.  We explore the feasibility of the design through an analytical model, demonstrate the viability of the design through a prototype system, discuss the challenges to a practical deployment including usability and scalability, and demonstrate decimeter-level accuracy in both carefully controlled and more realistic human mobility scenarios. </p>
+			<p style="font-style: italic;">
+				<a id="abstract_kuo14luxapose_html_a" class="pub_abstract_html">
+					Content has been formatted for web. Click to view raw TeX
+				</a>
+			</p>
+		</div>
+		</div>
+	</div>
+	
+</div>
+</li><li class="pub_type_workshops">
+<div class="timeline-badge timeline-badge-W">W</div>
+<div id="kuo14vlc_arch" class="timeline-panel pub_entry">
+	
+	<span class="bib_title">
+		
+		<a id="kuo14vlc_arch-title" href="pubs/kuo14vlc_arch.pdf">System Architecture Directions for a Software-Defined Lighting Infrastructure</a>
+		
+	</span> <br />
+	
+	<span class="bib_authors">Ye-Sheng Kuo, <strong>Pat</strong> <strong>Pannuto</strong>, and Prabal Dutta</span><br />
+	
+	<span class="bib_conference">1st ACM Workshop on Visible Light Communication Systems (VLCS&nbsp;&rsquo;14)</span><br />
+	
+	
+	<span class="pubs_links">
+		
+		<a id="kuo14vlc_arch-link" href="pubs/kuo14vlc_arch.pdf">[paper]</a>
+		
+		
+		<a id="kuo14vlc_arch-talk" href="/talks.html#vlcs14">[talk]</a>
+		
+		
+		
+		<a id="bib_XXXatag_kuo14vlc_arch" class="pub_bibtex">[bibtex]</a>
+		
+		
+		<a id="abstract_XXXatag_kuo14vlc_arch" class="pub_abstract">[abstract]</a>
+		
+		
+		
+		
+		<a href="http://www.networks.rice.edu/VLCS-2014/">[conference]</a>
+		
+		
+		
+	</span>
+	
+	<br />
+
+	
+	<div id="bib_kuo14vlc_arch" style="display: none;">
+		<pre>@inproceedings{kuo14vlc_arch,
+	keywords = {workshop},
+	title = {System Architecture Directions for a Software-Defined Lighting Infrastructure},
+	booktitle = {1st ACM Workshop on Visible Light Communication Systems},
+	series = {VLCS '14},
+	year = {2014},
+	month = {September},
+	location = {Maui, Hawaii, USA},
+	conference-url = {http://www.networks.rice.edu/VLCS-2014/},
+	author = {Kuo, Ye-Sheng and \textbf{Pannuto}, \textbf{Pat} and Dutta, Prabal},
+	badge = {W},
+	type = {workshops},
+	display-type = {paper},
+}</pre>
+	</div>
+	
+	
+	<div id="abstract_kuo14vlc_arch" class="panel panel-default" style="display: none;">
+		<div class="panel-body">
+		<div id="abstract_kuo14vlc_arch_raw" style="display: none;">
+			<pre>After years of development, cost-effective, energy-efficient, and
+long-lasting solid-state lighting technology is finally a viable alternative
+to incandescent and fluorescent lights.  Unfortunately, the remarkable march
+of semiconductor technology into the lighting industry is almost entirely in
+the form of a substitute good---one kind of lighting technology that replaces
+another---but this, we argue, squanders a unique opportunity for lighting to
+enable a bevy of new applications.  In this paper, we discuss applications in
+health, energy efficiency, entertainment, communications, indoor positioning,
+device configuration, and time synchronization.  We then prototype several of
+the indoor applications to explore a {\em software-defined lighting} (SDL)
+architecture that could support them.
+
+Using our prototyped applications, we next take a primitive stab at
+demonstrating application coexistence, multiplexing multiple applications on
+a single lighting network.  A major question raised by this effort is how to
+multiplex these various applications in a more principled manner on a shared
+lighting infrastructure whose primary role is illumination (implying that any
+human-perceptible flicker or flashing will be unacceptable).
+Looking ahead, we draw inspiration from software-defined networking's
+approach to sharing the network, and software-defined radios' approach to
+processing waveforms, to sketch the beginnings of an SDL architecture and its
+application programming interfaces.
+</pre>
+			<p style="font-style: italic;">
+				<a id="abstract_kuo14vlc_arch_raw_a" class="pub_abstract_raw">
+					Content has been formatted as TeX source. Click to format for web.
+				</a>
+			</p>
+		</div>
+		<div id="abstract_kuo14vlc_arch_html">
+			<p>After years of development, cost-effective, energy-efficient, and long-lasting solid-state lighting technology is finally a viable alternative to incandescent and fluorescent lights.  Unfortunately, the remarkable march of semiconductor technology into the lighting industry is almost entirely in the form of a substitute good&mdash;one kind of lighting technology that replaces another&mdash;but this, we argue, squanders a unique opportunity for lighting to enable a bevy of new applications.  In this paper, we discuss applications in health, energy efficiency, entertainment, communications, indoor positioning, device configuration, and time synchronization.  We then prototype several of the indoor applications to explore a <em> software-defined lighting</em> (SDL) architecture that could support them. </p><p> Using our prototyped applications, we next take a primitive stab at demonstrating application coexistence, multiplexing multiple applications on a single lighting network.  A major question raised by this effort is how to multiplex these various applications in a more principled manner on a shared lighting infrastructure whose primary role is illumination (implying that any human-perceptible flicker or flashing will be unacceptable). Looking ahead, we draw inspiration from software-defined networking&rsquo;s approach to sharing the network, and software-defined radios&rsquo; approach to processing waveforms, to sketch the beginnings of an SDL architecture and its application programming interfaces. </p>
+			<p style="font-style: italic;">
+				<a id="abstract_kuo14vlc_arch_html_a" class="pub_abstract_html">
+					Content has been formatted for web. Click to view raw TeX
+				</a>
+			</p>
+		</div>
+		</div>
+	</div>
+	
+</div>
+</li><li class="pub_type_conferences">
+<div class="timeline-badge timeline-badge-C">C</div>
+<div id="blaauw14iot" class="timeline-panel pub_entry">
+	
+	<span class="bib_title">
+		
+		<a id="blaauw14iot-title" href="pubs/blaauw14iot.pdf">IoT Design Space Challenges: Circuits and Systems</a>
+		
+	</span> <br />
+	
+	<span class="bib_authors">David Blaauw, Dennis Sylvester, Prabal Dutta, Yoonmyung Lee, Inhee Lee, Sechang Bang, Yejoong Kim, Gyouho Kim, <strong>Pat</strong> <strong>Pannuto</strong>, Ye-Sheng Kuo, Dongmin Yoon, Wanyeong Jung, Zhi Yoong Foo, Yen-Po Chen, Jeong Seok-Hyeon, and Myungjoon Choi</span><br />
+	
+	<span class="bib_conference">Proceedings of the 2014 IEEE Symposium on VLSI Technology (VLSI&rsquo;14)</span><br />
+	
+	
+	<span class="pubs_links">
+		
+		<a id="blaauw14iot-link" href="pubs/blaauw14iot.pdf">[paper]</a>
+		
+		
+		
+		
+		<a id="bib_XXXatag_blaauw14iot" class="pub_bibtex">[bibtex]</a>
+		
+		
+		<a id="abstract_XXXatag_blaauw14iot" class="pub_abstract">[abstract]</a>
+		
+		
+		
+		
+		<a href="http://www.vlsisymposium.org/">[conference]</a>
+		
+		
+		
+	</span>
+	
+	<span class="bib_extra">Invited Paper</span>
+	
+	<br />
+
+	
+	<div id="bib_blaauw14iot" style="display: none;">
+		<pre>@inproceedings{blaauw14iot,
+	keywords = {conf},
+	booktitle = {Proceedings of the 2014 IEEE Symposium on VLSI Technology (VLSI'14)},
+	title = {{IoT} Design Space Challenges: Circuits and Systems},
+	year = {2014},
+	month = {June},
+	location = {Honolulu, Hawaii, USA},
+	conference-url = {http://www.vlsisymposium.org/},
+	extra = {Invited Paper},
+	author = {Blaauw, David and Sylvester, Dennis and Dutta, Prabal and Lee, Yoonmyung and Lee, Inhee and Bang, Sechang and Kim, Yejoong and Kim, Gyouho and \textbf{Pannuto}, \textbf{Pat} and Kuo, Ye-Sheng and Yoon, Dongmin and Jung, Wanyeong and Foo, Zhi~Yoong and Chen, Yen-Po and Seok-Hyeon, Jeong and Choi, Myungjoon},
+	badge = {C},
+	type = {conferences},
+	display-type = {paper},
+}</pre>
+	</div>
+	
+	
+	<div id="abstract_blaauw14iot" class="panel panel-default" style="display: none;">
+		<div class="panel-body">
+		<div id="abstract_blaauw14iot_raw" style="display: none;">
+			<pre>The Internet of Things (IoT) is a rapidly emerging
+application space, poised to become the largest
+electronics market for the semiconductor industry. IoT
+devices are focused on sensing and actuating of our
+physical environment and have a nearly unlimited
+breadth of uses. In this paper, we explore the IoT
+application space and then identify two common
+challenges that exist across this space: ultra-low
+power operation and system design using modular,
+composable components. We survey recent low power
+techniques and discuss a low power bus that enables
+modular design. Finally, we conclude with three example
+ultra-low power, millimeter-scale IoT systems.
+</pre>
+			<p style="font-style: italic;">
+				<a id="abstract_blaauw14iot_raw_a" class="pub_abstract_raw">
+					Content has been formatted as TeX source. Click to format for web.
+				</a>
+			</p>
+		</div>
+		<div id="abstract_blaauw14iot_html">
+			<p>The Internet of Things (IoT) is a rapidly emerging application space, poised to become the largest electronics market for the semiconductor industry. IoT devices are focused on sensing and actuating of our physical environment and have a nearly unlimited breadth of uses. In this paper, we explore the IoT application space and then identify two common challenges that exist across this space: ultra-low power operation and system design using modular, composable components. We survey recent low power techniques and discuss a low power bus that enables modular design. Finally, we conclude with three example ultra-low power, millimeter-scale IoT systems. </p>
+			<p style="font-style: italic;">
+				<a id="abstract_blaauw14iot_html_a" class="pub_abstract_html">
+					Content has been formatted for web. Click to view raw TeX
+				</a>
+			</p>
+		</div>
+		</div>
+	</div>
+	
+</div>
+</li><li class="pub_type_conferences">
+<div class="timeline-badge timeline-badge-C">C</div>
+<div id="kim14motion" class="timeline-panel pub_entry">
+	
+	<span class="bib_title">
+		
+		<a id="kim14motion-title" href="pubs/kim14motion.pdf">A Millimeter-Scale Wireless Imaging System with Continuous Motion Detection and Energy Harvesting</a>
+		
+	</span> <br />
+	
+	<span class="bib_authors">Gyouho Kim, Zhi Yoong Foo, <strong>Pat</strong> <strong>Pannuto</strong>, Ye-Sheng Kuo, Benjamin Kempke, Mohammad Hassan Ghaed, Suyoung Bang, Inhee Lee, Yejoong Kim, Seokhyeon Jeong, Prabal Dutta, Dennis Sylvester, and David Blaauw</span><br />
+	
+	<span class="bib_conference">VLSI Circuits (VLSIC), 2014 Symposium on</span><br />
+	
+	
+	<span class="pubs_links">
+		
+		<a id="kim14motion-link" href="pubs/kim14motion.pdf">[paper]</a>
+		
+		
+		
+		
+		<a id="bib_XXXatag_kim14motion" class="pub_bibtex">[bibtex]</a>
+		
+		
+		<a id="abstract_XXXatag_kim14motion" class="pub_abstract">[abstract]</a>
+		
+		
+		
+		
+		<a href="http://www.vlsisymposium.org/" title="Acceptance: 96 / 420 (23%)">[conference]</a>
+		
+		
+		
+	</span>
+	
+	<br />
+
+	
+	<div id="bib_kim14motion" style="display: none;">
+		<pre>@inproceedings{kim14motion,
+	keywords = {conf},
+	booktitle = {VLSI Circuits (VLSIC), 2014 Symposium on},
+	title = {A Millimeter-Scale Wireless Imaging System with Continuous Motion Detection and Energy Harvesting},
+	year = {2014},
+	month = {June},
+	location = {Honolulu, Hawaii, USA},
+	conference-url = {http://www.vlsisymposium.org/},
+	acceptance-accepted = {96},
+	acceptance-total = {420},
+	author = {Kim, Gyouho and Foo, Zhi~{Y}oong and \textbf{Pannuto}, \textbf{Pat} and Kuo, Ye-Sheng and Kempke, Benjamin and Ghaed, Mohammad Hassan and Bang, Suyoung and Lee, Inhee and Kim, Yejoong and Jeong, Seokhyeon and Dutta, Prabal and Sylvester, Dennis and Blaauw, David},
+	badge = {C},
+	type = {conferences},
+	display-type = {paper},
+}</pre>
+	</div>
+	
+	
+	<div id="abstract_kim14motion" class="panel panel-default" style="display: none;">
+		<div class="panel-body">
+		<div id="abstract_kim14motion_raw" style="display: none;">
+			<pre>We present a $2\times4\times4$~mm$^3$ imaging system
+complete with optics, wireless communication, battery, power
+management, solar harvesting, processor and memory. The system
+features a 160$\times$160 resolution CMOS image sensor with 304nW
+continuous in-pixel motion detection mode.  System components
+are fabricated in five different IC layers and die-stacked for
+minimal form factor.  Photovoltaic (PV) cells face the opposite
+direction of the imager for optimal illumination and generate
+456~nW at 10~klux to enable energy autonomous system operation.
+</pre>
+			<p style="font-style: italic;">
+				<a id="abstract_kim14motion_raw_a" class="pub_abstract_raw">
+					Content has been formatted as TeX source. Click to format for web.
+				</a>
+			</p>
+		</div>
+		<div id="abstract_kim14motion_html">
+			<p>We present a 2&times;4&times;4&nbsp;mm<sup>3</sup> imaging system complete with optics, wireless communication, battery, power management, solar harvesting, processor and memory. The system features a 160&times;160 resolution CMOS image sensor with 304nW continuous in-pixel motion detection mode.  System components are fabricated in five different IC layers and die-stacked for minimal form factor.  Photovoltaic (PV) cells face the opposite direction of the imager for optimal illumination and generate 456&nbsp;nW at 10&nbsp;klux to enable energy autonomous system operation. </p>
+			<p style="font-style: italic;">
+				<a id="abstract_kim14motion_html_a" class="pub_abstract_html">
+					Content has been formatted for web. Click to view raw TeX
+				</a>
+			</p>
+		</div>
+		</div>
+	</div>
+	
+</div>
+</li><li class="pub_type_workshops">
+<div class="timeline-badge timeline-badge-W">W</div>
+<div id="klugman14gridwatch" class="timeline-panel pub_entry">
+	
+	<span class="bib_title">
+		
+		<a id="klugman14gridwatch-title" href="pubs/klugman14gridwatch.pdf">Grid Watch: Mapping Blackouts with Smart Phones</a>
+		
+	</span> <br />
+	
+	<span class="bib_authors">Noah Klugman, Javier Rosa, <strong>Pat</strong> <strong>Pannuto</strong>, Matthew Podolsky, William Huang, and Prabal Dutta</span><br />
+	
+	<span class="bib_conference">Proceedings of the 15th Workshop on Mobile Computing Systems and Applications (HotMobile&nbsp;&rsquo;14)</span><br />
+	
+	
+	<span class="pubs_links">
+		
+		<a id="klugman14gridwatch-link" href="pubs/klugman14gridwatch.pdf">[paper]</a>
+		
+		
+		
+		
+		<a id="bib_XXXatag_klugman14gridwatch" class="pub_bibtex">[bibtex]</a>
+		
+		
+		<a id="abstract_XXXatag_klugman14gridwatch" class="pub_abstract">[abstract]</a>
+		
+		
+		
+		
+		<a href="http://www.hotmobile.org/2014/">[conference]</a>
+		
+		
+		
+	</span>
+	
+	<br />
+
+	
+	<div id="bib_klugman14gridwatch" style="display: none;">
+		<pre>@inproceedings{klugman14gridwatch,
+	keywords = {workshop},
+	title = {{Grid Watch}: Mapping Blackouts with Smart Phones},
+	booktitle = {Proceedings of the 15th Workshop on Mobile Computing Systems and Applications},
+	series = {HotMobile '14},
+	year = {2014},
+	month = {Feb},
+	location = {Santa Barbara, California},
+	publisher = {ACM},
+	address = {New York, NY, USA},
+	conference-url = {http://www.hotmobile.org/2014/},
+	author = {Klugman, Noah and Rosa, Javier and \textbf{Pannuto}, \textbf{Pat} and Podolsky, Matthew and Huang, William and Dutta, Prabal},
+	badge = {W},
+	type = {workshops},
+	display-type = {paper},
+}</pre>
+	</div>
+	
+	
+	<div id="abstract_klugman14gridwatch" class="panel panel-default" style="display: none;">
+		<div class="panel-body">
+		<div id="abstract_klugman14gridwatch_raw" style="display: none;">
+			<pre>The power grid is one of humanity's most significant engineering
+undertakings and it is essential in developed and developing nations
+alike.  Currently, transparency into the power grid relies on
+utility companies and more fine-grained insight is provided by
+costly smart meter deployments. We claim that greater
+visibility into power grid conditions can be provided in an
+inexpensive and crowd-sourced manner independent of utility
+companies by leveraging existing smartphones.  Our key insight
+is that an unmodified smartphone can detect power outages by
+monitoring changes to its own power state, locally verifying
+these outages using a variety of sensors that reduce the
+likelihood of false power outage reports, and corroborating
+actual reports with other phones through data aggregation in
+the cloud.  The proposed approach enables a decentralized
+system that can scale, potentially providing researchers and
+concerned citizens with a powerful new tool to analyze the
+power grid and hold utility companies accountable for poor
+power quality.  This paper demonstrates the viability of the
+basic idea, identifies a number of challenges that are
+specific to this application as well as ones that are common
+to many crowd-sourced applications, and highlights some
+improvements to smartphone operating systems that could better
+support such applications in the future.</pre>
+			<p style="font-style: italic;">
+				<a id="abstract_klugman14gridwatch_raw_a" class="pub_abstract_raw">
+					Content has been formatted as TeX source. Click to format for web.
+				</a>
+			</p>
+		</div>
+		<div id="abstract_klugman14gridwatch_html">
+			<p>The power grid is one of humanity&rsquo;s most significant engineering undertakings and it is essential in developed and developing nations alike.  Currently, transparency into the power grid relies on utility companies and more fine-grained insight is provided by costly smart meter deployments. We claim that greater visibility into power grid conditions can be provided in an inexpensive and crowd-sourced manner independent of utility companies by leveraging existing smartphones.  Our key insight is that an unmodified smartphone can detect power outages by monitoring changes to its own power state, locally verifying these outages using a variety of sensors that reduce the likelihood of false power outage reports, and corroborating actual reports with other phones through data aggregation in the cloud.  The proposed approach enables a decentralized system that can scale, potentially providing researchers and concerned citizens with a powerful new tool to analyze the power grid and hold utility companies accountable for poor power quality.  This paper demonstrates the viability of the basic idea, identifies a number of challenges that are specific to this application as well as ones that are common to many crowd-sourced applications, and highlights some improvements to smartphone operating systems that could better support such applications in the future.</p>
+			<p style="font-style: italic;">
+				<a id="abstract_klugman14gridwatch_html_a" class="pub_abstract_html">
+					Content has been formatted for web. Click to view raw TeX
+				</a>
+			</p>
+		</div>
+		</div>
+	</div>
+	
+</div>
+</li>
+</ul>
+
+</div><div id="pubdiv_2013">
+
+<h2>2013</h2>
+
+<ul class="timeline">
+	<li class="pub_type_posterdemo">
+<div class="timeline-badge timeline-badge-PD">PD</div>
+<div id="pannuto13m3_demo" class="timeline-panel pub_entry">
+	
+	<span class="bib_title">
+		
+		<a id="pannuto13m3_demo-title" href="pubs/pannuto13m3_demo.pdf">Demo: M3: A Mm-scale Wireless Energy Harvesting Sensor Platform</a>
+		
+	</span> <br />
+	
+	<span class="bib_authors"><strong>Pat</strong> <strong>Pannuto</strong>, Yoonmyung Lee, Zhiyoong Foo, David Blaauw, and Prabal Dutta</span><br />
+	
+	<span class="bib_conference">Proceedings of the 1st International Workshop on Energy Neutral Sensing Systems (ENSSys&nbsp;&rsquo;13)</span><br />
+	
+	
+	<span class="pubs_links">
+		
+		<a id="pannuto13m3_demo-link" href="pubs/pannuto13m3_demo.pdf">[paper]</a>
+		
+		
+		
+		
+		<a id="bib_XXXatag_pannuto13m3_demo" class="pub_bibtex">[bibtex]</a>
+		
+		
+		<a id="abstract_XXXatag_pannuto13m3_demo" class="pub_abstract">[abstract]</a>
+		
+		
+		
+		
+		<a href="http://www.enssys.org/2013/">[conference]</a>
+		
+		
+		
+	</span>
+	
+	<br />
+
+	
+	<div id="bib_pannuto13m3_demo" style="display: none;">
+		<pre>@inproceedings{pannuto13m3_demo,
+	keywords = {posterdemo},
+	title = {Demo: M3: A Mm-scale Wireless Energy Harvesting Sensor Platform},
+	booktitle = {Proceedings of the 1st International Workshop on Energy Neutral Sensing Systems},
+	series = {ENSSys '13},
+	year = {2013},
+	month = {Nov},
+	isbn = {978-1-4503-2432-8},
+	location = {Rome, Italy},
+	pages = {17:1--17:2},
+	articleno = {17},
+	numpages = {2},
+	url-skip = {http://doi.acm.org/10.1145/2534208.2534225},
+	doi = {10.1145/2534208.2534225},
+	acmid = {2534225},
+	publisher = {ACM},
+	address = {New York, NY, USA},
+	conference-url = {http://www.enssys.org/2013/},
+	author = {\textbf{Pannuto}, \textbf{Pat} and Lee, Yoonmyung and Foo, Zhiyoong and Blaauw, David and Dutta, Prabal},
+	badge = {PD},
+	type = {posterdemo},
+	display-type = {paper},
+}</pre>
+	</div>
+	
+	
+	<div id="abstract_pannuto13m3_demo" class="panel panel-default" style="display: none;">
+		<div class="panel-body">
+		<div id="abstract_pannuto13m3_demo_raw" style="display: none;">
+			<pre>In this demo, we explore the critical role that power plays in the development
+of a mm-scale system. We argue that any practical deployment of a mm-scale
+system must have a significant energy harvesting component. We demo the newest
+M3 system, a self-contained, 1~mm$^3$, energy-harvesting computing platform
+capable of short-range (order~cm) wireless transmission.
+Finally, we present some of the M3's innovations that
+enable its current basic operation and discuss some of the open problems that
+remain before a smart dust network becomes operable.</pre>
+			<p style="font-style: italic;">
+				<a id="abstract_pannuto13m3_demo_raw_a" class="pub_abstract_raw">
+					Content has been formatted as TeX source. Click to format for web.
+				</a>
+			</p>
+		</div>
+		<div id="abstract_pannuto13m3_demo_html">
+			<p>In this demo, we explore the critical role that power plays in the development of a mm-scale system. We argue that any practical deployment of a mm-scale system must have a significant energy harvesting component. We demo the newest M3 system, a self-contained, 1&nbsp;mm<sup>3</sup>, energy-harvesting computing platform capable of short-range (order&nbsp;cm) wireless transmission. Finally, we present some of the M3&rsquo;s innovations that enable its current basic operation and discuss some of the open problems that remain before a smart dust network becomes operable.</p>
+			<p style="font-style: italic;">
+				<a id="abstract_pannuto13m3_demo_html_a" class="pub_abstract_html">
+					Content has been formatted for web. Click to view raw TeX
+				</a>
+			</p>
+		</div>
+		</div>
+	</div>
+	
+</div>
+</li><li class="pub_type_posterdemo">
+<div class="timeline-badge timeline-badge-PD">PD</div>
+<div id="pannuto13gatd" class="timeline-panel pub_entry">
+	
+	<span class="bib_title">
+		
+		<a id="pannuto13gatd-title" href="pubs/pannuto13gatd.pdf">GATD: A Robust, Extensible, Versatile Swarm Dataplane</a>
+		
+	</span> <br />
+	
+	<span class="bib_authors"><strong>Pat</strong> <strong>Pannuto</strong>, Bradford Campbell, and Prabal Dutta</span><br />
+	
+	<span class="bib_conference">The First International Workshop on the Swarm at the Edge of the Cloud (SEC&nbsp;&rsquo;13)</span><br />
+	
+	
+	<span class="pubs_links">
+		
+		<a id="pannuto13gatd-link" href="pubs/pannuto13gatd.pdf">[paper]</a>
+		
+		
+		
+		
+		<a id="bib_XXXatag_pannuto13gatd" class="pub_bibtex">[bibtex]</a>
+		
+		
+		<a id="abstract_XXXatag_pannuto13gatd" class="pub_abstract">[abstract]</a>
+		
+		
+		
+		
+		<a href="http://www.terraswarm.org/conferences/13/swarm/">[conference]</a>
+		
+		
+		
+	</span>
+	
+	<br />
+
+	
+	<div id="bib_pannuto13gatd" style="display: none;">
+		<pre>@inproceedings{pannuto13gatd,
+	keywords = {posterdemo},
+	title = {{GATD}: A Robust, Extensible, Versatile Swarm Dataplane},
+	booktitle = {The First International Workshop on the Swarm at the Edge of the Cloud},
+	series = {SEC '13},
+	year = {2013},
+	mon = {Sep},
+	day = {29},
+	location = {Montreal, Quebec, Canada},
+	conference-url = {http://www.terraswarm.org/conferences/13/swarm/},
+	author = {\textbf{Pannuto}, \textbf{Pat} and Campbell, Bradford and Dutta, Prabal},
+	badge = {PD},
+	type = {posterdemo},
+	display-type = {paper},
+}</pre>
+	</div>
+	
+	
+	<div id="abstract_pannuto13gatd" class="panel panel-default" style="display: none;">
+		<div class="panel-body">
+		<div id="abstract_pannuto13gatd_raw" style="display: none;">
+			<pre>We propose Get All The Data (GATD), a data collection and dissemination
+system for the Swarm. GATD offers a flexible architecture to connect arbitrary
+producers of data and consumers of events. Too many sensor networks are
+fragile, vertical silos, with a series of one-off handlers written to shuttle
+data, manipulate it, process it, and present it. Instead of being mired
+in details and rigid schemas, we argue that sensor network deployment should
+be simple. The key in GATD's design is the
+observation that there are common patterns to how disparate sensor network
+applications handle and process their generated data.
+
+To take advantage of these
+similarities we present a system comprised of common modules that
+different applications can leverage.
+To join GATD, new sensors simply send raw data. GATD will buffer this raw
+data indefinitely until an application specific {\em formatter} is written to
+map the raw data to key-value pairs. These streams can be combined, processed,
+graphed, stored, or otherwise manipulated by a standard set of transforms or
+new custom drivers. With this architecture, we argue that GATD provides a
+robust, extensible, and versatile Swarm dataplane.
+</pre>
+			<p style="font-style: italic;">
+				<a id="abstract_pannuto13gatd_raw_a" class="pub_abstract_raw">
+					Content has been formatted as TeX source. Click to format for web.
+				</a>
+			</p>
+		</div>
+		<div id="abstract_pannuto13gatd_html">
+			<p>We propose Get All The Data (GATD), a data collection and dissemination system for the Swarm. GATD offers a flexible architecture to connect arbitrary producers of data and consumers of events. Too many sensor networks are fragile, vertical silos, with a series of one-off handlers written to shuttle data, manipulate it, process it, and present it. Instead of being mired in details and rigid schemas, we argue that sensor network deployment should be simple. The key in GATD&rsquo;s design is the observation that there are common patterns to how disparate sensor network applications handle and process their generated data. </p><p> To take advantage of these similarities we present a system comprised of common modules that different applications can leverage. To join GATD, new sensors simply send raw data. GATD will buffer this raw data indefinitely until an application specific <em> formatter</em> is written to map the raw data to key-value pairs. These streams can be combined, processed, graphed, stored, or otherwise manipulated by a standard set of transforms or new custom drivers. With this architecture, we argue that GATD provides a robust, extensible, and versatile Swarm dataplane. </p>
+			<p style="font-style: italic;">
+				<a id="abstract_pannuto13gatd_html_a" class="pub_abstract_html">
+					Content has been formatted for web. Click to view raw TeX
+				</a>
+			</p>
+		</div>
+		</div>
+	</div>
+	
+</div>
+</li><li class="pub_type_posterdemo">
+<div class="timeline-badge timeline-badge-PD">PD</div>
+<div id="kuo13floodcasting" class="timeline-panel pub_entry">
+	
+	<span class="bib_title">
+		
+		<a id="kuo13floodcasting-title" href="pubs/kuo13floodcasting.pdf">Demo: Floodcasting, a Data Dissemination Service Supporting Real-time Actuation and Control</a>
+		
+	</span> <br />
+	
+	<span class="bib_authors">Ye-Sheng Kuo, <strong>Pat</strong> <strong>Pannuto</strong>, and Prabal Dutta</span><br />
+	
+	<span class="bib_conference">Proceeding of the 11th Annual International Conference on Mobile Systems, Applications, and Services (MobiSys&nbsp;&rsquo;13)</span><br />
+	
+	
+	<span class="pubs_links">
+		
+		<a id="kuo13floodcasting-link" href="pubs/kuo13floodcasting.pdf">[paper]</a>
+		
+		
+		
+		
+		<a id="bib_XXXatag_kuo13floodcasting" class="pub_bibtex">[bibtex]</a>
+		
+		
+		<a id="abstract_XXXatag_kuo13floodcasting" class="pub_abstract">[abstract]</a>
+		
+		
+		
+		
+		<a href="http://www.sigmobile.org/mobisys/2013/demos.php">[conference]</a>
+		
+		
+		
+	</span>
+	
+	<br />
+
+	
+	<div id="bib_kuo13floodcasting" style="display: none;">
+		<pre>@inproceedings{kuo13floodcasting,
+	keywords = {posterdemo},
+	title = {Demo: Floodcasting, a Data Dissemination Service Supporting Real-time Actuation and Control},
+	booktitle = {Proceeding of the 11th Annual International Conference on Mobile Systems, Applications, and Services},
+	series = {MobiSys '13},
+	year = {2013},
+	month = {June},
+	isbn = {978-1-4503-1672-9},
+	location = {Taipei, Taiwan},
+	pages = {489--490},
+	numpages = {2},
+	url-skip = {http://doi.acm.org/10.1145/2462456.2465697},
+	doi = {10.1145/2462456.2465697},
+	acmid = {2465697},
+	publisher = {ACM},
+	address = {New York, NY, USA},
+	conference-url = {http://www.sigmobile.org/mobisys/2013/demos.php},
+	author = {Kuo, Ye-Sheng and \textbf{Pannuto}, \textbf{Pat} and Dutta, Prabal},
+	badge = {PD},
+	type = {posterdemo},
+	display-type = {paper},
+}</pre>
+	</div>
+	
+	
+	<div id="abstract_kuo13floodcasting" class="panel panel-default" style="display: none;">
+		<div class="panel-body">
+		<div id="abstract_kuo13floodcasting_raw" style="display: none;">
+			<pre>Packet collisions have gone from something to be avoided to
+something that can be embraced. We build upon recent results that employ
+intentional packet collisions for synchronized flooding to show how multi-hop
+wireless networks can support real-time actuation and control.
+First, we show how a network of nodes can synchronize their LED
+transmissions to extend the range of a visual light communication (VLC) system.  Second, we show
+how buffer-free, streaming audio is possible over a multi-hop wireless
+mesh network.</pre>
+			<p style="font-style: italic;">
+				<a id="abstract_kuo13floodcasting_raw_a" class="pub_abstract_raw">
+					Content has been formatted as TeX source. Click to format for web.
+				</a>
+			</p>
+		</div>
+		<div id="abstract_kuo13floodcasting_html">
+			<p>Packet collisions have gone from something to be avoided to something that can be embraced. We build upon recent results that employ intentional packet collisions for synchronized flooding to show how multi-hop wireless networks can support real-time actuation and control. First, we show how a network of nodes can synchronize their LED transmissions to extend the range of a visual light communication (VLC) system.  Second, we show how buffer-free, streaming audio is possible over a multi-hop wireless mesh network.</p>
+			<p style="font-style: italic;">
+				<a id="abstract_kuo13floodcasting_html_a" class="pub_abstract_html">
+					Content has been formatted for web. Click to view raw TeX
+				</a>
+			</p>
+		</div>
+		</div>
+	</div>
+	
+</div>
+</li><li class="pub_type_journals">
+<div class="timeline-badge timeline-badge-J">J</div>
+<div id="lee13modular" class="timeline-panel pub_entry">
+	
+	<span class="bib_title">
+		
+		<a id="lee13modular-title" href="pubs/lee13modular.pdf">A Modular 1&nbsp;mm<sup>3</sup> Die-Stacked Sensing Platform with Low Power I<sup>2</sup>C Inter-die Communication and Multi-Modal Energy Harvesting</a>
+		
+	</span> <br />
+	
+	<span class="bib_authors">Yoonmyung Lee, Suyoung Bang, Inhee Lee, Yejoong Kim, Gyouho Kim, Mohammad Hassan Ghaed, <strong>Pat</strong> <strong>Pannuto</strong>, Prabal Dutta, Dennis Sylvester, and David Blaauw</span><br />
+	
+	<span class="bib_conference">IEEE Journal of Solid-State Circuits</span><br />
+	
+	
+	<span class="pubs_links">
+		
+		<a id="lee13modular-link" href="pubs/lee13modular.pdf">[paper]</a>
+		
+		
+		
+		
+		<a id="bib_XXXatag_lee13modular" class="pub_bibtex">[bibtex]</a>
+		
+		
+		<a id="abstract_XXXatag_lee13modular" class="pub_abstract">[abstract]</a>
+		
+		
+		
+		
+		<a href="http://sscs.ieee.org/ieee-journal-of-solid-state-circuits-jssc.html">[conference]</a>
+		
+		
+		
+	</span>
+	
+	<br />
+
+	
+	<div id="bib_lee13modular" style="display: none;">
+		<pre>@inproceedings{lee13modular,
+	keywords = {journal},
+	title = {A Modular 1~mm$^3$ Die-Stacked Sensing Platform with Low Power {I}$^2${C} Inter-die Communication and Multi-Modal Energy Harvesting},
+	booktitle = {IEEE Journal of Solid-State Circuits},
+	year = {2013},
+	mon = {jan},
+	volume = {48},
+	issue = {1},
+	conference-url = {http://sscs.ieee.org/ieee-journal-of-solid-state-circuits-jssc.html},
+	author = {Lee, Yoonmyung and Bang, Suyoung and Lee, Inhee and Kim, Yejoong and Kim, Gyouho and Ghaed, Mohammad Hassan and \textbf{Pannuto}, \textbf{Pat} and Dutta, Prabal and Sylvester, Dennis and Blaauw, David},
+	badge = {J},
+	type = {journals},
+	display-type = {paper},
+}</pre>
+	</div>
+	
+	
+	<div id="abstract_lee13modular" class="panel panel-default" style="display: none;">
+		<div class="panel-body">
+		<div id="abstract_lee13modular_raw" style="display: none;">
+			<pre>A 1.0~mm general-purpose sensor node platform with heterogeneous multi-layer structure is proposed.  The sensor platform benefits from modularity by allowing the addition/removal of IC layers. A new low power I$^2$C interface is introduced for energy efficient inter-layer communication with compatibility to commercial I$^2$C protocols. A self-adapting power management unit is proposed for efficient battery voltage down conversion for wide range of battery voltages and load current. The power management unit also adapts itself by monitoring energy harvesting conditions and harvesting sources and is capable of harvesting from solar, thermal and microbial fuel cells. An optical wakeup receiver is proposed for sensor node programming and synchronization with 228~pW standby power. The system also includes two processors, timer, temperature sensor, and low-power imager. Standby power of the system is 11~nW.</pre>
+			<p style="font-style: italic;">
+				<a id="abstract_lee13modular_raw_a" class="pub_abstract_raw">
+					Content has been formatted as TeX source. Click to format for web.
+				</a>
+			</p>
+		</div>
+		<div id="abstract_lee13modular_html">
+			<p>A 1.0&nbsp;mm general-purpose sensor node platform with heterogeneous multi-layer structure is proposed.  The sensor platform benefits from modularity by allowing the addition/removal of IC layers. A new low power I<sup>2</sup>C interface is introduced for energy efficient inter-layer communication with compatibility to commercial I<sup>2</sup>C protocols. A self-adapting power management unit is proposed for efficient battery voltage down conversion for wide range of battery voltages and load current. The power management unit also adapts itself by monitoring energy harvesting conditions and harvesting sources and is capable of harvesting from solar, thermal and microbial fuel cells. An optical wakeup receiver is proposed for sensor node programming and synchronization with 228&nbsp;pW standby power. The system also includes two processors, timer, temperature sensor, and low-power imager. Standby power of the system is 11&nbsp;nW.</p>
+			<p style="font-style: italic;">
+				<a id="abstract_lee13modular_html_a" class="pub_abstract_html">
+					Content has been formatted for web. Click to view raw TeX
+				</a>
+			</p>
+		</div>
+		</div>
+	</div>
+	
+</div>
+</li>
+</ul>
+
+</div><div id="pubdiv_2012">
+
+<h2>2012</h2>
+
+<ul class="timeline">
+	<li class="pub_type_conferences">
+<div class="timeline-badge timeline-badge-C">C</div>
+<div id="kuo12sdr" class="timeline-panel pub_entry">
+	
+	<span class="bib_title">
+		
+		<a id="kuo12sdr-title" href="pubs/kuo12sdr.pdf">Reconfiguring the Software Radio to Improve Power, Price, and Portability</a>
+		
+	</span> <br />
+	
+	<span class="bib_authors">Ye-Sheng Kuo, <strong>Pat</strong> <strong>Pannuto</strong>, Thomas Schmid, and Prabal Dutta</span><br />
+	
+	<span class="bib_conference">Proceedings of the 10th ACM Conference on Embedded Networked Sensor Systems (SenSys&nbsp;&rsquo;12)</span><br />
+	
+	
+	<span class="pubs_links">
+		
+		<a id="kuo12sdr-link" href="pubs/kuo12sdr.pdf">[paper]</a>
+		
+		
+		
+		
+		<a id="bib_XXXatag_kuo12sdr" class="pub_bibtex">[bibtex]</a>
+		
+		
+		<a id="abstract_XXXatag_kuo12sdr" class="pub_abstract">[abstract]</a>
+		
+		
+		
+		
+		<a href="http://sensys.acm.org/2012/" title="Acceptance: 23 / 123 (19%)">[conference]</a>
+		
+		
+		
+	</span>
+	
+	<br />
+
+	
+	<div id="bib_kuo12sdr" style="display: none;">
+		<pre>@inproceedings{kuo12sdr,
+	keywords = {conf},
+	title = {Reconfiguring the Software Radio to Improve Power, Price, and Portability},
+	booktitle = {Proceedings of the 10th ACM Conference on Embedded Networked Sensor Systems},
+	series = {SenSys '12},
+	year = {2012},
+	mon = {Nov},
+	location = {Toronto, Canada},
+	publisher = {ACM},
+	address = {New York, NY, USA},
+	conference-url = {http://sensys.acm.org/2012/},
+	acceptance-accepted = {23},
+	acceptance-total = {123},
+	author = {Kuo, Ye-Sheng and \textbf{Pannuto}, \textbf{Pat} and Schmid, Thomas and Dutta, Prabal},
+	badge = {C},
+	type = {conferences},
+	display-type = {paper},
+}</pre>
+	</div>
+	
+	
+	<div id="abstract_kuo12sdr" class="panel panel-default" style="display: none;">
+		<div class="panel-body">
+		<div id="abstract_kuo12sdr_raw" style="display: none;">
+			<pre>Most modern software-defined radios are large, expensive, and
+power-hungry, and this diminishes their utility in low-power,
+size-constrained settings like sensor networks and mobile computing.
+We explore the viability of scaling down the software radio in size,
+cost, and power, and show that an index card-sized, sub-\$150, `AA'
+battery-powered system is possible using off-the-shelf components.
+Key to our approach is that we leverage an integrated, reconfigurable,
+flash-based FPGA with a hard ARM Cortex-M3 microprocessor which
+simultaneously enables lower power and tighter hardware/soft\-ware
+integration than prior designs.  This architecture allows us to
+implement timing-critical MAC protocols and validate the speculated
+performance of several recent MAC/PHY primitives and protocols
+including Backcast, A-MAC, and Glossy using an IEEE 802.15.4-compliant
+radio implementation that interoperates with commercial radios.  The
+work also identifies several enhancements in the underlying hardware
+components that could improve power, performance, and flexibility.
+</pre>
+			<p style="font-style: italic;">
+				<a id="abstract_kuo12sdr_raw_a" class="pub_abstract_raw">
+					Content has been formatted as TeX source. Click to format for web.
+				</a>
+			</p>
+		</div>
+		<div id="abstract_kuo12sdr_html">
+			<p>Most modern software-defined radios are large, expensive, and power-hungry, and this diminishes their utility in low-power, size-constrained settings like sensor networks and mobile computing. We explore the viability of scaling down the software radio in size, cost, and power, and show that an index card-sized, sub-$150, &lsquo;AA&rsquo;
+battery-powered system is possible using off-the-shelf components. Key to our approach is that we leverage an integrated, reconfigurable, flash-based FPGA with a hard ARM Cortex-M3 microprocessor which simultaneously enables lower power and tighter hardware/soft-ware integration than prior designs.  This architecture allows us to implement timing-critical MAC protocols and validate the speculated performance of several recent MAC/PHY primitives and protocols including Backcast, A-MAC, and Glossy using an IEEE 802.15.4-compliant radio implementation that interoperates with commercial radios.  The work also identifies several enhancements in the underlying hardware components that could improve power, performance, and flexibility. </p>
+			<p style="font-style: italic;">
+				<a id="abstract_kuo12sdr_html_a" class="pub_abstract_html">
+					Content has been formatted for web. Click to view raw TeX
+				</a>
+			</p>
+		</div>
+		</div>
+	</div>
+	
+</div>
+</li><li class="pub_type_posterdemo">
+<div class="timeline-badge timeline-badge-PD">PD</div>
+<div id="pannuto12future_of_mobile" class="timeline-panel pub_entry">
+	
+	<span class="bib_title">
+		
+		<a id="pannuto12future_of_mobile-title" href="pubs/pannuto12future_of_mobile.pdf">Platforms and Protocols for Emerging Wireless Systems</a>
+		
+	</span> <br />
+	
+	<span class="bib_authors"><strong>Pat</strong> <strong>Pannuto</strong>, Prabal Dutta, Bradford Campbell, Samuel DeBruin, Trey Grunnagle, William Huang, Ben Kempke, Ye-Sheng Kuo, Andrew Robinson, Aaron Schulman, Maya Spivak, and Lohit Yerva</span><br />
+	
+	
+	<span class="pubs_links">
+		
+		<a id="pannuto12future_of_mobile-link" href="pubs/pannuto12future_of_mobile.pdf">[paper]</a>
+		
+		
+		
+		
+		<a id="bib_XXXatag_pannuto12future_of_mobile" class="pub_bibtex">[bibtex]</a>
+		
+		
+		
+		
+		
+		<a href="https://sites.google.com/site/futureofmobileworkshop/">[conference]</a>
+		
+		
+		
+	</span>
+	
+	<br />
+
+	
+	<div id="bib_pannuto12future_of_mobile" style="display: none;">
+		<pre>@inproceedings{pannuto12future_of_mobile,
+	keywords = {posterdemo},
+	title = {Platforms and Protocols for Emerging Wireless Systems},
+	series = {Future of Mobile Computing Workshop},
+	year = {2012},
+	mon = {5},
+	location = {Mountain View, California},
+	publisher = {Google},
+	address = {Mountain View, CA, USA},
+	conference-url = {https://sites.google.com/site/futureofmobileworkshop/},
+	author = {\textbf{Pannuto}, \textbf{Pat} and Dutta, Prabal and Campbell, Bradford and DeBruin, Samuel and Grunnagle, Trey and Huang, William and Kempke, Ben and Kuo, Ye-Sheng and Robinson, Andrew and Schulman, Aaron and Spivak, Maya and Yerva, Lohit},
+	badge = {PD},
+	type = {posterdemo},
+	display-type = {paper},
+}</pre>
+	</div>
+	
+	
+</div>
+</li><li class="pub_type_posterdemo">
+<div class="timeline-badge timeline-badge-PD">PD</div>
+<div id="pannuto12i2c" class="timeline-panel pub_entry">
+	
+	<span class="bib_title">
+		
+		<a id="pannuto12i2c-title" href="pubs/pannuto12i2c.pdf">Demo: Ultra-constrained sensor platform interfacing</a>
+		
+	</span> <br />
+	
+	<span class="bib_authors"><strong>Pat</strong> <strong>Pannuto</strong>, Yoonmyung Lee, Ben Kempke, Dennis Sylvester, David Blaauw, and Prabal Dutta</span><br />
+	
+	<span class="bib_conference">Proceedings of the 11th international conference on Information Processing in Sensor Networks (IPSN&nbsp;&rsquo;12)</span><br />
+	
+	
+	<span class="pubs_links">
+		
+		<a id="pannuto12i2c-link" href="pubs/pannuto12i2c.pdf">[paper]</a>
+		
+		
+		
+		
+		<a id="bib_XXXatag_pannuto12i2c" class="pub_bibtex">[bibtex]</a>
+		
+		
+		<a id="abstract_XXXatag_pannuto12i2c" class="pub_abstract">[abstract]</a>
+		
+		
+		
+		
+		<a href="http://ipsn.acm.org/2012/poster.html">[conference]</a>
+		
+		
+		
+	</span>
+	
+	<br />
+
+	
+	<div id="bib_pannuto12i2c" style="display: none;">
+		<pre>@inproceedings{pannuto12i2c,
+	keywords = {posterdemo},
+	title = {Demo: Ultra-constrained sensor platform interfacing},
+	booktitle = {Proceedings of the 11th international conference on Information Processing in Sensor Networks},
+	series = {IPSN '12},
+	year = {2012},
+	month = {apr},
+	isbn = {978-1-4503-1227-1},
+	location = {Beijing, China},
+	pages = {147--148},
+	numpages = {2},
+	url-skip = {http://doi.acm.org/10.1145/2185677.2185721},
+	doi = {10.1145/2185677.2185721},
+	acmid = {2185721},
+	publisher = {ACM},
+	address = {New York, NY, USA},
+	conference-url = {http://ipsn.acm.org/2012/poster.html},
+	author = {\textbf{Pannuto}, \textbf{Pat} and Lee, Yoonmyung and Kempke, Ben and Sylvester, Dennis and Blaauw, David and Dutta, Prabal},
+	badge = {PD},
+	type = {posterdemo},
+	display-type = {paper},
+}</pre>
+	</div>
+	
+	
+	<div id="abstract_pannuto12i2c" class="panel panel-default" style="display: none;">
+		<div class="panel-body">
+		<div id="abstract_pannuto12i2c_raw" style="display: none;">
+			<pre>In this work we expose the challenges of interfacing both conventional and new
+systems with an extremely resource constrained platform. We find that even when
+attempts are made to utilize an industry standard protocol (I2C), necessary
+protocol modifications for ultra-low power design means that interfacing remains
+non-trivial.
+
+We present a functional 0.4mm~x~0.8mm ARM Cortex~M0 with 3KB of RAM, 24~GPIOs,
+and an ultra-low power I2C interface. This chip is part of the Michigan Micro
+Mote (M3) project, which is designed to build a complete software and hardware
+platform for general purpose sensing at the millimeter scale. We demo an I2C
+interface circuit allowing commercial hardware to program and interact with the
+chip and present the beginning of the millimeter scale sensing revolution.
+</pre>
+			<p style="font-style: italic;">
+				<a id="abstract_pannuto12i2c_raw_a" class="pub_abstract_raw">
+					Content has been formatted as TeX source. Click to format for web.
+				</a>
+			</p>
+		</div>
+		<div id="abstract_pannuto12i2c_html">
+			<p>In this work we expose the challenges of interfacing both conventional and new systems with an extremely resource constrained platform. We find that even when attempts are made to utilize an industry standard protocol (I2C), necessary protocol modifications for ultra-low power design means that interfacing remains non-trivial. </p><p> We present a functional 0.4mm&nbsp;x&nbsp;0.8mm ARM Cortex&nbsp;M0 with 3KB of RAM, 24&nbsp;GPIOs, and an ultra-low power I2C interface. This chip is part of the Michigan Micro Mote (M3) project, which is designed to build a complete software and hardware platform for general purpose sensing at the millimeter scale. We demo an I2C interface circuit allowing commercial hardware to program and interact with the chip and present the beginning of the millimeter scale sensing revolution. </p>
+			<p style="font-style: italic;">
+				<a id="abstract_pannuto12i2c_html_a" class="pub_abstract_html">
+					Content has been formatted for web. Click to view raw TeX
+				</a>
+			</p>
+		</div>
+		</div>
+	</div>
+	
+</div>
+</li>
+</ul>
+
+</div><div id="pubdiv_2011">
+
+<h2>2011</h2>
+
+<ul class="timeline">
+	<li class="pub_type_workshops">
+<div class="timeline-badge timeline-badge-W">W</div>
+<div id="pannuto11plc" class="timeline-panel pub_entry">
+	
+	<span class="bib_title">
+		
+		<a id="pannuto11plc-title" href="pubs/pannuto11plc.pdf">Exploring Powerline Networking for the Smart Building</a>
+		
+	</span> <br />
+	
+	<span class="bib_authors"><strong>Pat</strong> <strong>Pannuto</strong> and Prabal Dutta</span><br />
+	
+	<span class="bib_conference">Extending the Internet to Low power and Lossy Networks (IP+SN&nbsp;&rsquo;11)</span><br />
+	
+	
+	<span class="pubs_links">
+		
+		<a id="pannuto11plc-link" href="pubs/pannuto11plc.pdf">[paper]</a>
+		
+		
+		<a id="pannuto11plc-talk" href="/talks.html#pannuto11plc">[talk]</a>
+		
+		
+		
+		<a id="bib_XXXatag_pannuto11plc" class="pub_bibtex">[bibtex]</a>
+		
+		
+		<a id="abstract_XXXatag_pannuto11plc" class="pub_abstract">[abstract]</a>
+		
+		
+		
+		
+		<a href="http://hinrg.cs.jhu.edu/ip+sn2011/">[conference]</a>
+		
+		
+		
+	</span>
+	
+	<br />
+
+	
+	<div id="bib_pannuto11plc" style="display: none;">
+		<pre>@inproceedings{pannuto11plc,
+	keywords = {workshop},
+	title = {Exploring Powerline Networking for the Smart Building},
+	booktitle = {Extending the Internet to Low power and Lossy Networks},
+	series = {IP+SN '11},
+	year = {2011},
+	month = {April},
+	location = {Chicago, Illinois, USA},
+	conference-url = {http://hinrg.cs.jhu.edu/ip+sn2011/},
+	author = {\textbf{Pannuto}, \textbf{Pat} and Dutta, Prabal},
+	badge = {W},
+	type = {workshops},
+	display-type = {paper},
+}</pre>
+	</div>
+	
+	
+	<div id="abstract_pannuto11plc" class="panel panel-default" style="display: none;">
+		<div class="panel-body">
+		<div id="abstract_pannuto11plc_raw" style="display: none;">
+			<pre>
+The SmartGrid is ushering in an era of new IP endpoints that already
+reside on the power grid today, but lack network connectivity.  Many
+of these endpoints -- refrigerators, air conditioners, and power
+strips -- will be networked wirelessly.  However, since they already
+exist on the power grid, a natural question is whether they might be
+networked over the same wires that supply their power.  Such an
+approach would allow SmartGrid sensors to vacate increasingly
+congested spectrum and allow information to flow along the same path
+as power, perhaps simplifying deployment in the short term and deep
+demand response in the long term.
+In this paper we explore the current state of Powerline Communications
+(PLC) and explore the efficacy of PLC as a sensor network backbone in
+a modern building.  We evaluate several different PLC modems in both
+end-to-end and multi-hop configurations.  We further analyze building
+blueprints to identify and correlate several PLC ``disruptors'' --
+building facets that inhibit PLC.  Our preliminary results show that
+PLC is a promising technology for networking sensors in the Smart
+Building.  However, a number of anomalies suggest a more in-depth
+study is warranted.
+</pre>
+			<p style="font-style: italic;">
+				<a id="abstract_pannuto11plc_raw_a" class="pub_abstract_raw">
+					Content has been formatted as TeX source. Click to format for web.
+				</a>
+			</p>
+		</div>
+		<div id="abstract_pannuto11plc_html">
+			<p> The SmartGrid is ushering in an era of new IP endpoints that already reside on the power grid today, but lack network connectivity.  Many of these endpoints &ndash; refrigerators, air conditioners, and power strips &ndash; will be networked wirelessly.  However, since they already exist on the power grid, a natural question is whether they might be networked over the same wires that supply their power.  Such an approach would allow SmartGrid sensors to vacate increasingly congested spectrum and allow information to flow along the same path as power, perhaps simplifying deployment in the short term and deep demand response in the long term. In this paper we explore the current state of Powerline Communications (PLC) and explore the efficacy of PLC as a sensor network backbone in a modern building.  We evaluate several different PLC modems in both end-to-end and multi-hop configurations.  We further analyze building blueprints to identify and correlate several PLC &ldquo;disruptors&rdquo; &ndash; building facets that inhibit PLC.  Our preliminary results show that PLC is a promising technology for networking sensors in the Smart Building.  However, a number of anomalies suggest a more in-depth study is warranted. </p>
+			<p style="font-style: italic;">
+				<a id="abstract_pannuto11plc_html_a" class="pub_abstract_html">
+					Content has been formatted for web. Click to view raw TeX
+				</a>
+			</p>
+		</div>
+		</div>
+	</div>
+	
+</div>
+</li>
+</ul>
+
+</div>
+
+
+	</div>
+
+</div> <!-- wrap -->
+
+<script src="/js/patpannuto-onload.js"></script>
+<script>
+  /* Google Analytics */
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54298009-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>

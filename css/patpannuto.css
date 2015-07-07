@@ -1,0 +1,73 @@
+/* vim: set ts=2 sts=2 sw=2 noet: */
+body {
+	padding-top: 50px;
+}
+
+.round {
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+#gallery-pat-div {
+	height: 300px;
+}
+
+#gallery-pat-div img {
+	position: absolute;
+	height: 300px;
+	top: 0;
+	border-radius: 10%;
+}
+
+/* http://stackoverflow.com/questions/19203816/vertical-divider-wont-work-in-bootstrap-3-0 */
+.navbar .divider-vertical {
+	height: 50px;
+	margin: 0px;
+	border-right: 1px solid #888;
+	border-left: 1px solid #888;
+}
+
+.navbar-inverse .divider-vertical {
+	border-right-color: #222222;
+	border-left-color: #111111;
+}
+
+@media (max-width: 767px) {
+	.navbar-collapse .nav > .divider-vertical {
+		display: none;
+	}
+}
+
+.bib_title {
+	font-weight: bold;
+}
+
+.bib_conference {
+	font-style: italic;
+}
+
+.bib_extra {
+	font-weight: bold;
+	color: red;
+}
+
+.talk img {
+	width: 100%;
+	padding: 2px;
+	border: 2px solid black;
+	margin-top: 14px;
+}
+
+.talk h3 {
+	margin-top: 0px;
+}
+
+:target {
+	background-color: #ffa;
+}
+
+.timeline > li > .timeline-panel:target:after {
+	border-right: 14px solid #ffa;
+	border-left: 0 solid #ffa;
+}
+
