@@ -192,7 +192,7 @@ This page collects recent publications. My <a href="/cv/pannuto.pdf">full CV <i 
 	
 	<span class="bib_title">
 		
-		<span class="label label-info">To Appear</span> Harmonium: Asymmetric, Bandstitched UWB for Fast, Accurate, and Robust Indoor Localization
+		<a id="kempke16harmonium-title" href="pubs/kempke16harmonium.pdf">Harmonium: Asymmetric, Bandstitched UWB for Fast, Accurate, and Robust Indoor Localization</a>
 		
 	</span> <br />
 	
@@ -203,11 +203,15 @@ This page collects recent publications. My <a href="/cv/pannuto.pdf">full CV <i 
 	
 	<span class="pubs_links">
 		
+		<a id="kempke16harmonium-link" href="pubs/kempke16harmonium.pdf">[paper]</a>
+		
 		
 		
 		
 		<a id="bib_XXXatag_kempke16harmonium" class="pub_bibtex">[bibtex]</a>
 		
+		
+		<a id="abstract_XXXatag_kempke16harmonium" class="pub_abstract">[abstract]</a>
 		
 		
 		
@@ -223,7 +227,7 @@ This page collects recent publications. My <a href="/cv/pannuto.pdf">full CV <i 
 	
 	<div id="bib_kempke16harmonium" style="display: none;">
 		<pre>@inproceedings{kempke16harmonium,
-	title = {Harmonium: Asymmetric, Bandstitched UWB for Fast, Accurate, and Robust Indoor Localization},
+	title = {Harmonium: Asymmetric, Bandstitched {UWB} for Fast, Accurate, and Robust Indoor Localization},
 	booktitle = {Proceedings of the 15th International Conference on Information Processing in Sensor Networks},
 	series = {IPSN'16},
 	year = {2016},
@@ -234,6 +238,51 @@ This page collects recent publications. My <a href="/cv/pannuto.pdf">full CV <i 
 }</pre>
 	</div>
 	
+	
+	<div id="abstract_kempke16harmonium" class="panel panel-default" style="display: none;">
+		<div class="panel-body">
+		<div id="abstract_kempke16harmonium_raw" style="display: none;">
+			<pre>
+We introduce \emph{Harmonium}, a novel ultra-wideband RF localization architecture
+that achieves decimeter-scale accuracy indoors.
+Harmonium strikes a balance between tag simplicity and processing complexity to
+provide fast and accurate indoor location estimates.
+Harmonium uses only commodity components and consists of a small, inexpensive,
+lightweight, and FCC-compliant ultra-wideband transmitter or \emph{tag}, fixed
+infrastructure \emph{anchors} with known locations, and centralized processing
+that calculates the tag's position.
+Anchors employ a new frequency-stepped narrowband receiver architecture that
+rejects narrowband interferers and
+extracts high-resolution timing information without the cost or complexity of
+traditional ultra-wideband approaches.
+In a complex indoor environment, 90\% of position estimates obtained with
+Harmonium exhibit less than 31\,cm of error with an average 9\,cm of inter-sample
+noise. In non-line-of-sight conditions (i.e. through-wall), 90\% of position error is less than
+42\,cm.
+The tag draws 75\,mW when actively transmitting, or 3.9\,mJ per location fix
+at the 19\,Hz update rate.  Tags weigh 3\,g and cost \$4.50\,USD at modest
+volumes.
+Harmonium introduces a new design point for indoor localization
+and enables localization of small, fast objects such as micro quadrotors,
+devices previously restricted to expensive optical motion capture
+systems.
+</pre>
+			<p style="font-style: italic;">
+				<a id="abstract_kempke16harmonium_raw_a" class="pub_abstract_raw">
+					Content has been formatted as TeX source. Click to format for web.
+				</a>
+			</p>
+		</div>
+		<div id="abstract_kempke16harmonium_html">
+			<p> We introduce <em>Harmonium</em>, a novel ultra-wideband RF localization architecture that achieves decimeter-scale accuracy indoors. Harmonium strikes a balance between tag simplicity and processing complexity to provide fast and accurate indoor location estimates. Harmonium uses only commodity components and consists of a small, inexpensive, lightweight, and FCC-compliant ultra-wideband transmitter or <em>tag</em>, fixed infrastructure <em>anchors</em> with known locations, and centralized processing that calculates the tag&rsquo;s position. Anchors employ a new frequency-stepped narrowband receiver architecture that rejects narrowband interferers and extracts high-resolution timing information without the cost or complexity of traditional ultra-wideband approaches. In a complex indoor environment, 90% of position estimates obtained with Harmonium exhibit less than 31&nbsp;cm of error with an average 9&nbsp;cm of inter-sample noise. In non-line-of-sight conditions (i.e. through-wall), 90% of position error is less than 42&nbsp;cm. The tag draws 75&nbsp;mW when actively transmitting, or 3.9&nbsp;mJ per location fix at the 19&nbsp;Hz update rate.  Tags weigh 3&nbsp;g and cost $4.50&nbsp;USD at modest volumes. Harmonium introduces a new design point for indoor localization and enables localization of small, fast objects such as micro quadrotors, devices previously restricted to expensive optical motion capture systems. </p>
+			<p style="font-style: italic;">
+				<a id="abstract_kempke16harmonium_html_a" class="pub_abstract_html">
+					Content has been formatted for web. Click to view raw TeX
+				</a>
+			</p>
+		</div>
+		</div>
+	</div>
 	
 </div>
 </li>
@@ -610,7 +659,7 @@ delicate optical motion capture systems.
 			</p>
 		</div>
 		<div id="abstract_kempke15polypoint_html">
-			<p>We introduce PolyPoint, the first RF localization system which enables the real-time tracking and navigating of quadrotors through complex indoor environments.  PolyPoint leverages the new ScenSor transceiver from DecaWave to acquire the timestamps necessary for accurate time-based location estimation and leverages the benefits of antenna and frequency diversity to iteratively refine a tag&rsquo;s position. PolyPoint produces quadrotor position estimates at a rate of 20 Hz with median error below 40 cm and average error of 56 cm in line-of-sight conditions.  PolyPoint approaches the localization accuracy necessary to safely navigate quadrotors indoors, a feat currently achieved by costly and delicate optical motion capture systems. </p>
+			<p>We introduce PolyPoint, the first RF localization system which enables the real-time tracking and navigating of quadrotors through complex indoor environments.  PolyPoint leverages the new ScenSor transceiver from DecaWave to acquire the timestamps necessary for accurate time-based location estimation and leverages the benefits of antenna and frequency diversity to iteratively refine a tag&rsquo;s position. PolyPoint produces quadrotor position estimates at a rate of 20&nbsp;Hz with median error below 40&nbsp;cm and average error of 56&nbsp;cm in line-of-sight conditions.  PolyPoint approaches the localization accuracy necessary to safely navigate quadrotors indoors, a feat currently achieved by costly and delicate optical motion capture systems. </p>
 			<p style="font-style: italic;">
 				<a id="abstract_kempke15polypoint_html_a" class="pub_abstract_html">
 					Content has been formatted for web. Click to view raw TeX
@@ -726,7 +775,7 @@ set.
 			</p>
 		</div>
 		<div id="abstract_pannuto15mbus_html">
-			<p>As we show in this paper, I/O has become the limiting factor in scaling down size and power toward the goal of invisible computing. Achieving this goal will require composing optimized and specialized&mdash;yet reusable&mdash;components with an interconnect that permits tiny, ultra-low power systems.  In contrast to today&rsquo;s interconnects which are limited by power-hungry pull-ups or high-overhead chip-select lines, our approach provides a superset of common bus features but at lower power, with fixed area and pin count, using fully synthesizable logic, and with surprisingly low protocol overhead. </p><p> We present <strong>MBus</strong>, a new 4-pin, 22.6 pJ/bit/chip chip-to-chip interconnect made of two &ldquo;shoot-through&rdquo; rings.  MBus facilitates ultra-low power system operation by implementing automatic power-gating of each chip in the system, easing the integration of active, inactive, and activating circuits on a single die.  In addition, we introduce a new bus primitive: power oblivious communication, which guarantees message reception regardless of the recipient&rsquo;s power state when a message is sent.  This disentangles power management from communication, greatly simplifying the creation of viable, modular, and heterogeneous systems that operate on the order of nanowatts. </p><p> To evaluate the viability, power, performance, overhead, and scalability of our design, we build both hardware and software implementations of MBus and show its seamless operation across two FPGAs and twelve custom chips from three different semiconductor processes.  A three-chip, 2.2 mm<sup>3</sup> MBus system draws 8 nW of total system standby power and uses only 22.6 pJ/bit/chip for communication.  This is the lowest power for any system bus with MBus&rsquo;s feature set. </p>
+			<p>As we show in this paper, I/O has become the limiting factor in scaling down size and power toward the goal of invisible computing. Achieving this goal will require composing optimized and specialized&mdash;yet reusable&mdash;components with an interconnect that permits tiny, ultra-low power systems.  In contrast to today&rsquo;s interconnects which are limited by power-hungry pull-ups or high-overhead chip-select lines, our approach provides a superset of common bus features but at lower power, with fixed area and pin count, using fully synthesizable logic, and with surprisingly low protocol overhead. </p><p> We present <strong>MBus</strong>, a new 4-pin, 22.6&nbsp;pJ/bit/chip chip-to-chip interconnect made of two &ldquo;shoot-through&rdquo; rings.  MBus facilitates ultra-low power system operation by implementing automatic power-gating of each chip in the system, easing the integration of active, inactive, and activating circuits on a single die.  In addition, we introduce a new bus primitive: power oblivious communication, which guarantees message reception regardless of the recipient&rsquo;s power state when a message is sent.  This disentangles power management from communication, greatly simplifying the creation of viable, modular, and heterogeneous systems that operate on the order of nanowatts. </p><p> To evaluate the viability, power, performance, overhead, and scalability of our design, we build both hardware and software implementations of MBus and show its seamless operation across two FPGAs and twelve custom chips from three different semiconductor processes.  A three-chip, 2.2&nbsp;mm<sup>3</sup> MBus system draws 8&nbsp;nW of total system standby power and uses only 22.6&nbsp;pJ/bit/chip for communication.  This is the lowest power for any system bus with MBus&rsquo;s feature set. </p>
 			<p style="font-style: italic;">
 				<a id="abstract_pannuto15mbus_html_a" class="pub_abstract_html">
 					Content has been formatted for web. Click to view raw TeX
@@ -993,7 +1042,7 @@ to support authentication, accessor control, and cloud storage support.
 			</p>
 		</div>
 		<div id="abstract_campbell15interfacing_html">
-			<p>Meaningful, reusable applications built on top of ubiquitous and networked devices will be slow to materialize as long as device APIs vary widely, communication protocols are not standardized, and programming support is limited and inconsistent. When even feature-identical devices present different APIs and application creators are burdened with managing the variability, the promise of the swarm of devices will go unrealized. We start addressing this issue by providing a model for devices, based on input and output ports, that allows for a set of common interfaces to represent a range of devices. Further, we provide a solution to the bootstrapping problem, providing a general means to bridge the adoption gap for a new API for the Internet of Things. We borrow both the name, <em>accessor</em>, and several key design concepts from a recent proposal by Latronico&nbsp;et. al, for our interface layer that wraps currently non-conforming devices with the standard interface. We show how a small, straightforward to write (and read) JavaScript file can convert diverse devices into common interfaces that are conducive for creating applications. </p><p> We realize our system with three environments that can execute accessors, Python, Java, and Node.js, a range of accessors for both IoT and legacy devices, and a browser-based application for interacting with devices using our proposed interfaces. We show how the same accessor mechanism can form synthetic devices with higher-level interfaces and we outline how our system can be extended to support authentication, accessor control, and cloud storage support. </p>
+			<p>Meaningful, reusable applications built on top of ubiquitous and networked devices will be slow to materialize as long as device APIs vary widely, communication protocols are not standardized, and programming support is limited and inconsistent. When even feature-identical devices present different APIs and application creators are burdened with managing the variability, the promise of the swarm of devices will go unrealized. We start addressing this issue by providing a model for devices, based on input and output ports, that allows for a set of common interfaces to represent a range of devices. Further, we provide a solution to the bootstrapping problem, providing a general means to bridge the adoption gap for a new API for the Internet of Things. We borrow both the name, <em>accessor</em>, and several key design concepts from a recent proposal by Latronico&nbsp;et.&nbsp;al, for our interface layer that wraps currently non-conforming devices with the standard interface. We show how a small, straightforward to write (and read) JavaScript file can convert diverse devices into common interfaces that are conducive for creating applications. </p><p> We realize our system with three environments that can execute accessors, Python, Java, and Node.js, a range of accessors for both IoT and legacy devices, and a browser-based application for interacting with devices using our proposed interfaces. We show how the same accessor mechanism can form synthetic devices with higher-level interfaces and we outline how our system can be extended to support authentication, accessor control, and cloud storage support. </p>
 			<p style="font-style: italic;">
 				<a id="abstract_campbell15interfacing_html_a" class="pub_abstract_html">
 					Content has been formatted for web. Click to view raw TeX
@@ -1326,7 +1375,7 @@ post-mote era.
 		
 	</span> <br />
 	
-	<span class="bib_authors">Ye-Sheng&nbsp;Kuo, <strong>Pat</strong>&nbsp;<strong>Pannuto</strong>, Gyouho&nbsp;Kim, Zhi&nbsp;Yoong&nbsp;Foo, Inhee&nbsp;Lee, Benjamin&nbsp;Kempke, Prabal&nbsp;Dutta, David&nbsp;Blaauw, and Yoonmyung&nbsp;Lee</span><br />
+	<span class="bib_authors">Ye-Sheng&nbsp;Kuo, <strong>Pat</strong>&nbsp;<strong>Pannuto</strong>, Gyouho&nbsp;Kim, ZhiYoong&nbsp;Foo, Inhee&nbsp;Lee, Benjamin&nbsp;Kempke, Prabal&nbsp;Dutta, David&nbsp;Blaauw, and Yoonmyung&nbsp;Lee</span><br />
 	
 	<span class="bib_conference">CICC &rsquo;14: IEEE Custom Integrated Circuits Conference</span><br />
 	
@@ -1363,7 +1412,7 @@ post-mote era.
 	month = {September},
 	location = {San Jose, California, USA},
 	conference-url = {http://www.iee-cicc.org},
-	author = {Kuo, Ye-Sheng and Pannuto, Pat and Kim, Gyouho and Foo, Zhi~{Y}oong and Lee, Inhee and Kempke, Benjamin and Dutta, Prabal and Blaauw, David and Lee, Yoonmyung},
+	author = {Kuo, Ye-Sheng and Pannuto, Pat and Kim, Gyouho and Foo, ZhiYoong and Lee, Inhee and Kempke, Benjamin and Dutta, Prabal and Blaauw, David and Lee, Yoonmyung},
 }</pre>
 	</div>
 	
@@ -1900,7 +1949,7 @@ application programming interfaces.
 		
 	</span> <br />
 	
-	<span class="bib_authors">David&nbsp;Blaauw, Dennis&nbsp;Sylvester, Prabal&nbsp;Dutta, Yoonmyung&nbsp;Lee, Inhee&nbsp;Lee, Sechang&nbsp;Bang, Yejoong&nbsp;Kim, Gyouho&nbsp;Kim, <strong>Pat</strong>&nbsp;<strong>Pannuto</strong>, Ye-Sheng&nbsp;Kuo, Dongmin&nbsp;Yoon, Wanyeong&nbsp;Jung, Zhi&nbsp;Yoong&nbsp;Foo, Yen-Po&nbsp;Chen, Jeong&nbsp;Seok-Hyeon, and Myungjoon&nbsp;Choi</span><br />
+	<span class="bib_authors">David&nbsp;Blaauw, Dennis&nbsp;Sylvester, Prabal&nbsp;Dutta, Yoonmyung&nbsp;Lee, Inhee&nbsp;Lee, Sechang&nbsp;Bang, Yejoong&nbsp;Kim, Gyouho&nbsp;Kim, <strong>Pat</strong>&nbsp;<strong>Pannuto</strong>, Ye-Sheng&nbsp;Kuo, Dongmin&nbsp;Yoon, Wanyeong&nbsp;Jung, ZhiYoong&nbsp;Foo, Yen-Po&nbsp;Chen, Jeong&nbsp;Seok-Hyeon, and Myungjoon&nbsp;Choi</span><br />
 	
 	<span class="bib_conference">Proceedings of the 2014 IEEE Symposium on VLSI Technology (VLSI&rsquo;14)</span><br />
 	
@@ -1940,7 +1989,7 @@ application programming interfaces.
 	location = {Honolulu, Hawaii, USA},
 	conference-url = {http://www.vlsisymposium.org/},
 	extra = {Invited Paper},
-	author = {Blaauw, David and Sylvester, Dennis and Dutta, Prabal and Lee, Yoonmyung and Lee, Inhee and Bang, Sechang and Kim, Yejoong and Kim, Gyouho and Pannuto, Pat and Kuo, Ye-Sheng and Yoon, Dongmin and Jung, Wanyeong and Foo, Zhi~Yoong and Chen, Yen-Po and Seok-Hyeon, Jeong and Choi, Myungjoon},
+	author = {Blaauw, David and Sylvester, Dennis and Dutta, Prabal and Lee, Yoonmyung and Lee, Inhee and Bang, Sechang and Kim, Yejoong and Kim, Gyouho and Pannuto, Pat and Kuo, Ye-Sheng and Yoon, Dongmin and Jung, Wanyeong and Foo, ZhiYoong and Chen, Yen-Po and Seok-Hyeon, Jeong and Choi, Myungjoon},
 }</pre>
 	</div>
 	
@@ -1990,7 +2039,7 @@ ultra-low power, millimeter-scale IoT systems.
 		
 	</span> <br />
 	
-	<span class="bib_authors">Gyouho&nbsp;Kim, Zhi&nbsp;Yoong&nbsp;Foo, <strong>Pat</strong>&nbsp;<strong>Pannuto</strong>, Ye-Sheng&nbsp;Kuo, Benjamin&nbsp;Kempke, Mohammad&nbsp;Hassan&nbsp;Ghaed, Suyoung&nbsp;Bang, Inhee&nbsp;Lee, Yejoong&nbsp;Kim, Seokhyeon&nbsp;Jeong, Prabal&nbsp;Dutta, Dennis&nbsp;Sylvester, and David&nbsp;Blaauw</span><br />
+	<span class="bib_authors">Gyouho&nbsp;Kim, ZhiYoong&nbsp;Foo, <strong>Pat</strong>&nbsp;<strong>Pannuto</strong>, Ye-Sheng&nbsp;Kuo, Benjamin&nbsp;Kempke, Mohammad&nbsp;Hassan&nbsp;Ghaed, Suyoung&nbsp;Bang, Inhee&nbsp;Lee, Yejoong&nbsp;Kim, Seokhyeon&nbsp;Jeong, Prabal&nbsp;Dutta, Dennis&nbsp;Sylvester, and David&nbsp;Blaauw</span><br />
 	
 	<span class="bib_conference">VLSI Circuits (VLSIC), 2014 Symposium on</span><br />
 	
@@ -2027,7 +2076,7 @@ ultra-low power, millimeter-scale IoT systems.
 	month = {June},
 	location = {Honolulu, Hawaii, USA},
 	conference-url = {http://www.vlsisymposium.org/},
-	author = {Kim, Gyouho and Foo, Zhi~{Y}oong and Pannuto, Pat and Kuo, Ye-Sheng and Kempke, Benjamin and Ghaed, Mohammad Hassan and Bang, Suyoung and Lee, Inhee and Kim, Yejoong and Jeong, Seokhyeon and Dutta, Prabal and Sylvester, Dennis and Blaauw, David},
+	author = {Kim, Gyouho and Foo, ZhiYoong and Pannuto, Pat and Kuo, Ye-Sheng and Kempke, Benjamin and Ghaed, Mohammad Hassan and Bang, Suyoung and Lee, Inhee and Kim, Yejoong and Jeong, Seokhyeon and Dutta, Prabal and Sylvester, Dennis and Blaauw, David},
 }</pre>
 	</div>
 	
@@ -2180,7 +2229,7 @@ support such applications in the future.</pre>
 		
 	</span> <br />
 	
-	<span class="bib_authors"><strong>Pat</strong>&nbsp;<strong>Pannuto</strong>, Yoonmyung&nbsp;Lee, Zhiyoong&nbsp;Foo, David&nbsp;Blaauw, and Prabal&nbsp;Dutta</span><br />
+	<span class="bib_authors"><strong>Pat</strong>&nbsp;<strong>Pannuto</strong>, Yoonmyung&nbsp;Lee, ZhiYoong&nbsp;Foo, David&nbsp;Blaauw, and Prabal&nbsp;Dutta</span><br />
 	
 	<span class="bib_conference">Proceedings of the 1st International Workshop on Energy Neutral Sensing Systems (ENSSys&nbsp;&rsquo;13)</span><br />
 	
@@ -2227,7 +2276,7 @@ support such applications in the future.</pre>
 	publisher = {ACM},
 	address = {New York, NY, USA},
 	conference-url = {http://www.enssys.org/2013/},
-	author = {Pannuto, Pat and Lee, Yoonmyung and Foo, Zhiyoong and Blaauw, David and Dutta, Prabal},
+	author = {Pannuto, Pat and Lee, Yoonmyung and Foo, ZhiYoong and Blaauw, David and Dutta, Prabal},
 }</pre>
 	</div>
 	
