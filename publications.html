@@ -136,11 +136,112 @@ This page collects recent publications. My <a href="/cv/pannuto.pdf">full CV <i 
 <h2>2016</h2>
 
 <ul class="timeline">
-	<li class="pub_type_journals">
-<div class="timeline-badge timeline-badge-J">J</div>
-<div id="pannuto16mbus-top-picks" class="timeline-panel pub_entry">
+	<li class="pub_type_conferences">
+<div class="timeline-badge timeline-badge-C">C</div>
+<div id="kempke16surepoint" class="timeline-panel pub_entry">
 	
 	<span class="label label-success">New</span>
+	
+	<span class="bib_title">
+		
+		<a id="kempke16surepoint-title" href="pubs/kempke16surepoint.pdf">SurePoint: Exploiting Ultra Wideband Flooding and Diversity to Provide Robust, Scalable, High-Fidelity Indoor Localization</a>
+		
+	</span> <br />
+	
+	<span class="bib_authors">Benjamin&nbsp;Kempke, <strong>Pat</strong>&nbsp;<strong>Pannuto</strong>, and Prabal&nbsp;Dutta</span><br />
+	
+	<span class="bib_conference">Proceedings of the 14th ACM Conference on Embedded Networked Sensor Systems (SenSys&rsquo;16)</span><br />
+	
+	
+	<span class="pubs_links">
+		
+		<a id="kempke16surepoint-link" href="pubs/kempke16surepoint.pdf">[paper]</a>
+		
+		
+		
+		
+		<a id="bib_XXXatag_kempke16surepoint" class="pub_bibtex">[bibtex]</a>
+		
+		
+		<a id="abstract_XXXatag_kempke16surepoint" class="pub_abstract">[abstract]</a>
+		
+		
+		
+		
+		<a href="http://sensys.acm.org/2016/">[conference]</a>
+		
+		
+		
+	</span>
+	
+	<br />
+
+	
+	<div id="bib_kempke16surepoint" style="display: none;">
+		<pre>@inproceedings{kempke16surepoint,
+	title = {{SurePoint}: Exploiting Ultra Wideband Flooding and Diversity to Provide Robust, Scalable, High-Fidelity Indoor Localization},
+	booktitle = {Proceedings of the 14th ACM Conference on Embedded Networked Sensor Systems},
+	series = {SenSys'16},
+	year = {2016},
+	month = {November},
+	location = {Stanford, CA, USA},
+	conference-url = {http://sensys.acm.org/2016/},
+	author = {Kempke, Benjamin and Pannuto, Pat and Dutta, Prabal},
+}</pre>
+	</div>
+	
+	
+	<div id="abstract_kempke16surepoint" class="panel panel-default" style="display: none;">
+		<div class="panel-body">
+		<div id="abstract_kempke16surepoint_raw" style="display: none;">
+			<pre>
+We present SurePoint, a system for drop-in, high-fidelity indoor localization.
+SurePoint builds on recently available commercial ultra-wideband radio hardware.
+While ultra-wideband radio hardware can provide the timing primitives necessary
+for a simple adaptation of two-way ranging, we show that with the addition of
+frequency and spatial diversity, we can achieve a 53\% decrease in median
+ranging error.
+Because this extra diversity requires many additional packets for each range
+estimate, we next develop an efficient broadcast ranging protocol for
+localization that ameliorates this overhead.
+We evaluate the performance of this ranging protocol in stationary and
+fast-moving environments and find that it achieves up to 0.08\,m median error
+and 0.53\,m 99th percentile error.
+As ranging requires the tag to have exclusive access to the channel, we next
+develop a protocol to coordinate the localization of multiple tags in space.
+This protocol builds on recent work exploiting the constructive interference
+phenomenon. The ultra-wideband PHY uses a different modulation scheme
+compared to the narrowband PHY used by previous work, thus we first explore the
+viability and performance of constructive interference with ultra-wideband
+radios.
+Finally, as the ranging protocol requires careful management of the
+ultra-wideband radio and tight timing, we develop TriPoint, a dedicated
+``drop-in'' ranging module that provides a simple \iic interface. We show that
+this additional microcontroller demands only marginal energy overhead while
+facilitating interoperability by freeing the primary microcontroller to
+handle other tasks.
+</pre>
+			<p style="font-style: italic;">
+				<a id="abstract_kempke16surepoint_raw_a" class="pub_abstract_raw">
+					Content has been formatted as TeX source. Click to format for web.
+				</a>
+			</p>
+		</div>
+		<div id="abstract_kempke16surepoint_html">
+			<p> We present SurePoint, a system for drop-in, high-fidelity indoor localization. SurePoint builds on recently available commercial ultra-wideband radio hardware. While ultra-wideband radio hardware can provide the timing primitives necessary for a simple adaptation of two-way ranging, we show that with the addition of frequency and spatial diversity, we can achieve a 53% decrease in median ranging error. Because this extra diversity requires many additional packets for each range estimate, we next develop an efficient broadcast ranging protocol for localization that ameliorates this overhead. We evaluate the performance of this ranging protocol in stationary and fast-moving environments and find that it achieves up to 0.08&nbsp;m median error and 0.53&nbsp;m 99th percentile error. As ranging requires the tag to have exclusive access to the channel, we next develop a protocol to coordinate the localization of multiple tags in space. This protocol builds on recent work exploiting the constructive interference phenomenon. The ultra-wideband PHY uses a different modulation scheme compared to the narrowband PHY used by previous work, thus we first explore the viability and performance of constructive interference with ultra-wideband radios. Finally, as the ranging protocol requires careful management of the ultra-wideband radio and tight timing, we develop TriPoint, a dedicated &ldquo;drop-in&rdquo; ranging module that provides a simple I<sup>2</sup>C interface. We show that this additional microcontroller demands only marginal energy overhead while facilitating interoperability by freeing the primary microcontroller to handle other tasks. </p>
+			<p style="font-style: italic;">
+				<a id="abstract_kempke16surepoint_html_a" class="pub_abstract_html">
+					Content has been formatted for web. Click to view raw TeX
+				</a>
+			</p>
+		</div>
+		</div>
+	</div>
+	
+</div>
+</li><li class="pub_type_journals">
+<div class="timeline-badge timeline-badge-J">J</div>
+<div id="pannuto16mbus-top-picks" class="timeline-panel pub_entry">
 	
 	<span class="bib_title">
 		
@@ -187,8 +288,6 @@ This page collects recent publications. My <a href="/cv/pannuto.pdf">full CV <i 
 </li><li class="pub_type_conferences">
 <div class="timeline-badge timeline-badge-C">C</div>
 <div id="kempke16harmonium" class="timeline-panel pub_entry">
-	
-	<span class="label label-success">New</span>
 	
 	<span class="bib_title">
 		
