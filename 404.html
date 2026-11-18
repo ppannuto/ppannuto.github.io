@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Pat Pannuto</title>
+<link rel="canonical" href="https://cseweb.ucsd.edu/~ppannuto/">
+<noscript><meta http-equiv="refresh" content="0; url=https://cseweb.ucsd.edu/~ppannuto/"></noscript>
+<script>
+// Send any patpannuto.com URL to the same place on cseweb.
+(function () {
+	var HOME = 'https://cseweb.ucsd.edu/~ppannuto';
+	var CLASSES = 'https://cseweb.ucsd.edu/classes/';
+	var COURSES = {
+		'2020/winter/cse291':     'wi20/cse291-k',
+		'2020/fall/cse141':       'fa20/cse141-a',
+		'2021/spring/cse291':     'sp21/cse291-a',
+		'2022/winter/cse141L':    'wi22/cse141L-a',
+		'2022/winter/cse291':     'wi22/cse291-13',
+		'2022/spring/cse141':     'sp22/cse141-a',
+		'2022/summer/wes237b':    's122/wes237B',
+		'2022/fall/wireless-iot': 'fa22/cse291-c'
+	};
+	var p = location.pathname, rest = location.search + location.hash, dest = null;
+	var m = p.match(/^\/classes\/(.*)$/);
+	if (m) {
+		var sub = m[1].replace(/\.md$/, '.html');
+		for (var k in COURSES) {
+			if (sub === k || sub.indexOf(k + '/') === 0) {
+				dest = CLASSES + COURSES[k] + '/' + sub.slice(k.length).replace(/^\//, '');
+				break;
+			}
+		}
+		if (!dest) dest = HOME + '/teaching.html';
+	} else {
+		dest = HOME + p;
+	}
+	location.replace(dest + rest);
+})();
+</script>
+</head>
+<body>
+<p>This site has moved to <a href="https://cseweb.ucsd.edu/~ppannuto/">cseweb.ucsd.edu/~ppannuto</a>.</p>
+</body>
+</html>
